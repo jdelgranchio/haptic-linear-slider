@@ -1,0 +1,27 @@
+# Ignore everything by default, but not directories
+*
+!*/
+
+# Un-ignore Git/Repo essentials
+!.gitignore
+!*.md
+
+# Kicad History and backups
+.history/
+*-backups/
+.backups/
+
+# Un-ignore the base project files
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_dru
+
+# Un-ignore project symbols, footprints, and 3D models
+!sym-lib-table
+!fp-lib-table
+!lib/_3D/*.stp
+!lib/_3D/*.step
+!lib/_3D/*.wrl
+!lib/_footprints.pretty/*.kicad_mod
+!lib/_symbols/*.kicad_sym
