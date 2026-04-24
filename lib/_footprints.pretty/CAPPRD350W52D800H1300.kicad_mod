@@ -8,7 +8,7 @@
 	(property "Reference" "C**"
 		(at 1.905 -1.905 0)
 		(layer "F.SilkS")
-		(uuid "adca3d2a-1dae-4fe3-9b38-5f12b3fc5ef2")
+		(uuid "d71c3cdd-1c51-463e-a3ab-6fc1eb88ad62")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20,7 +20,7 @@
 		(at 0.635 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b6d9b0fb-a1fe-4165-93a7-69bdf39a0096")
+		(uuid "610ce650-d516-4883-b11a-9e6d85c28aea")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b25b5bf7-f066-413a-b511-7c2ee5afb79c")
+		(uuid "873b7239-f469-45c1-aef7-ce02baef2f06")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "588ba5d8-b78c-4657-ac28-fda6c1d1cb9c")
+		(uuid "305b89d2-1553-4fb9-b809-3f06c31818a2")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "93710a26-c0e8-42d3-a8dc-7d65d980b0e5")
+		(uuid "e8599d3f-6c4d-4195-b0c7-ffb99ca97c22")
 	)
 	(fp_circle
 		(center 1.75 0)
@@ -72,12 +72,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "f2b861c0-61ef-43a5-b570-535c0fd68883")
+		(uuid "f025688c-3615-4334-a8c6-660782915aa6")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "1e0de8b0-2e00-46ce-a1d0-080e49e72901")
+		(uuid "0d470587-a686-4a29-8755-dd26c34beba0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -91,7 +91,7 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "4e336ce5-28dc-46a0-935c-447195a6f619")
+		(uuid "6e2692a4-4a37-46d6-b082-855f14643e19")
 	)
 	(pad "2" thru_hole circle
 		(at 3.5 0)
@@ -99,10 +99,10 @@
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d34ad0c8-5723-42a0-b41d-0a3a6443107e")
+		(uuid "f815a0aa-b7fc-4a89-b625-ddb7dc01f5f2")
 	)
 	(embedded_fonts no)
-	(model "./simboli e footprint di Mouser/3D/860020574012.stp"
+	(model "${KIPRJMOD}/lib/_3D/860020574012.stp"
 		(offset
 			(xyz 1.75 0 1)
 		)
