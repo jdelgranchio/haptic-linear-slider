@@ -455,6 +455,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "220uF Electrolytic Capacitor (Wurth)"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
@@ -713,7 +716,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MyFootprints:SOT95P280X90-6N"
+		(property "Footprint" "_Footprints:SOT95P280X90-6N"
 			(at 0 -13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -930,6 +933,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "2x Connector (GCT)"
+		(pin_numbers
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1540,6 +1546,9 @@
 		(embedded_fonts no)
 	)
 	(symbol "40V Schottky Diode (PANJIT)"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(hide yes)
 		)
