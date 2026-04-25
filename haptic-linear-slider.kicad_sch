@@ -6368,7 +6368,7 @@
 	)
 	(text "10V Power\n"
 		(exclude_from_sim no)
-		(at 55.372 36.83 0)
+		(at 66.04 43.942 0)
 		(effects
 			(font
 				(size 2.54 2.54)
