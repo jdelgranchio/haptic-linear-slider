@@ -6955,6 +6955,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 52.07) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ad71c9-e515-4e6b-b42a-a212ca6baf99")
+	)
+	(wire
+		(pts
 			(xy 372.11 212.09) (xy 351.79 212.09)
 		)
 		(stroke
@@ -18275,7 +18285,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 97.79 53.34 0)
+		(at 97.79 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18285,7 +18295,7 @@
 		(dnp no)
 		(uuid "acd2b0a9-461e-48ef-ab56-c59d31233515")
 		(property "Reference" "#PWR018"
-			(at 97.79 57.15 0)
+			(at 97.79 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18296,7 +18306,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 97.79 49.53 0)
+			(at 97.79 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18306,7 +18316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 53.34 0)
+			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18317,7 +18327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 53.34 0)
+			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18328,7 +18338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 53.34 0)
+			(at 97.79 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
