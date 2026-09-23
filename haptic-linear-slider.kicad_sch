@@ -6874,15 +6874,6 @@
 		(at 232.41 228.6)
 		(uuid "fd9e48c1-e97f-4f26-9d74-18cf89ca87bc")
 	)
-	(bus_entry
-		(at 113.03 85.09)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1826c3d9-678d-41e5-a79c-896f61e73eed")
-	)
 	(wire
 		(pts
 			(xy 168.91 222.25) (xy 154.94 222.25)
