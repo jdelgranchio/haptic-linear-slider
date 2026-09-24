@@ -9747,7 +9747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 99.3648 0)
 			(hide yes)
 			(show_name no)
@@ -9758,7 +9758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9769,8 +9769,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 48.5648 0)
 			(hide yes)
 			(show_name no)
@@ -10148,7 +10192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -10159,8 +10203,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10678,7 +10766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 89.2048 0)
 			(hide yes)
 			(show_name no)
@@ -10689,7 +10777,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10700,8 +10788,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 90.17 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10759,7 +10891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 119.6848 0)
 			(hide yes)
 			(show_name no)
@@ -10770,7 +10902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -10781,8 +10913,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11402,7 +11578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 137.4648 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -11413,7 +11589,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 138.43 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -11424,7 +11600,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
+			(at 138.43 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 138.43 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 138.43 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 138.43 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
 			(at 138.43 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14292,7 +14512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 109.5248 0)
 			(hide yes)
 			(show_name no)
@@ -14303,7 +14523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -14314,8 +14534,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 110.49 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14440,8 +14704,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 162.052 90.424 90)
+		(property "Value" "100n"
+			(at 160.274 90.424 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14451,7 +14715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 162.56 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -14462,7 +14726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 166.37 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14473,8 +14737,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 166.37 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 166.37 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 166.37 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 166.37 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 166.37 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14765,7 +15073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 162.56 101.9048 0)
 			(hide yes)
 			(show_name no)
@@ -14776,7 +15084,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 166.37 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14787,8 +15095,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 166.37 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 166.37 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 166.37 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 166.37 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 166.37 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14923,7 +15275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 162.56 112.0648 0)
 			(hide yes)
 			(show_name no)
@@ -14934,7 +15286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 166.37 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -14945,8 +15297,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 166.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 166.37 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 166.37 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 166.37 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 166.37 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16769,7 +17165,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 79.0448 0)
 			(hide yes)
 			(show_name no)
@@ -16780,7 +17176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16791,8 +17187,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 80.01 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17003,7 +17443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 129.8448 0)
 			(hide yes)
 			(show_name no)
@@ -17014,7 +17454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -17025,8 +17465,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19146,6 +19630,7 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-20% 16V X5R 0402"
 			(at 156.21 138.43 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19246,7 +19731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 68.8848 0)
 			(hide yes)
 			(show_name no)
@@ -19257,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -19268,8 +19753,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19974,7 +20503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B223KB5NNN"
 			(at 387.35 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -19985,8 +20514,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22nF+/-10% 50V X7R 1 0402"
 			(at 387.35 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 387.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B223KB5NNNC"
+			(at 387.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B223KB5NNNC"
+			(at 387.35 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B223KB5NNNC?qs=Px5GYDabLCrK5pUh8JyUDw%3D%3D"
+			(at 387.35 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20293,7 +20866,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "_Footprints:C_0402_1005Metric_small_pads"
 			(at 232.41 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -20304,7 +20877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL05B104KO5NFN"
 			(at 228.6 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -20315,8 +20888,52 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 16V X7R 0402"
 			(at 228.6 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 228.6 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL05B104KO5NFNC"
+			(at 228.6 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL05B104KO5NFNC"
+			(at 228.6 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NFNC?qs=%252B6g0mu59x7JGwSD3a9lGNA%3D%3D"
+			(at 228.6 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22148,6 +22765,7 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-20% 16V X5R 0402"
 			(at 127 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22502,6 +23120,7 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7uF+/-20% 16V X5R 0402"
 			(at 115.57 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
