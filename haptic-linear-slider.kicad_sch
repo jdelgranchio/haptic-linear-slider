@@ -6322,6 +6322,17 @@
 		)
 		(uuid "229995c3-98dd-4d48-ad0a-be9eb1c6c815")
 	)
+	(text "Come mai questo GND non è collegato a nulla?\n"
+		(exclude_from_sim no)
+		(at 64.516 190.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "305e8435-dbd7-48f6-b9a8-c58a0b165c19")
+	)
 	(text "Boost converter\n\n"
 		(exclude_from_sim no)
 		(at 72.39 81.534 0)
