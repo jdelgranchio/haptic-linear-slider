@@ -6377,6 +6377,17 @@
 		)
 		(uuid "9958dc1c-38ff-4eed-9f71-8df18ef3c74c")
 	)
+	(text "Bisogna capire che condensatori comprare per C4 e C5\nHo visto che però è già stato assiciato un footprint"
+		(exclude_from_sim no)
+		(at 12.954 181.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2310451-59b9-4572-9f00-370c70a36327")
+	)
 	(text "10V Power\n"
 		(exclude_from_sim no)
 		(at 66.04 43.942 0)
@@ -6420,6 +6431,17 @@
 			(justify left bottom)
 		)
 		(uuid "c38a18a3-0124-41b7-9955-54e3e98c48fc")
+	)
+	(text "Gengis, le NetTie vanno tolte secondo Chat GPT\n"
+		(exclude_from_sim no)
+		(at 173.99 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc9c74fa-ba0c-4838-ab27-9270c89089c0")
 	)
 	(text "1V1 Power"
 		(exclude_from_sim no)
@@ -10921,7 +10943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 82.2452 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10932,7 +10954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
 			(at 81.28 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10943,8 +10965,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
 			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 81.28 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 81.28 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11534,7 +11601,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 91.1352 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11545,7 +11612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
 			(at 90.17 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11556,8 +11623,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
+			(at 90.424 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 90.17 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 90.17 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 90.17 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 90.17 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16768,7 +16880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 23.8252 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16779,7 +16891,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
 			(at 22.86 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16790,8 +16902,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
 			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 22.86 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 22.86 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18238,7 +18395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 31.4452 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18249,7 +18406,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
 			(at 30.48 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -18260,8 +18417,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
 			(at 30.48 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 30.48 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 30.48 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19503,7 +19705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 100.0252 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -19514,7 +19716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
 			(at 99.06 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -19525,8 +19727,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
 			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 99.06 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 99.06 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19659,7 +19906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 33.9852 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -19670,7 +19917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
 			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -19681,8 +19928,53 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
 			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 33.02 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
