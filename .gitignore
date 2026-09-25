@@ -14,6 +14,8 @@ _autosave-*
 
 # Generated fabrication outputs (built by scripts/export.sh / CI)
 /output/
+/site/
+/.cache/
 
 # OS / editor
 .DS_Store

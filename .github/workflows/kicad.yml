@@ -1,33 +1,116 @@
 name: KiCad outputs
 
+# main  -> build everything, publish the latest to GitHub Pages (only the newest deploy is kept)
+# v*    -> build everything and attach it to a GitHub release (kept forever)
+# Workflow artifacts expire after 14 days, so old per-commit builds don't pile up.
 on:
   push:
     branches: [main]
     tags: ['v*']
-  pull_request:
+    paths-ignore: ['**.md']   # not applied to tag pushes
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref_type != 'tag' }}
+
+permissions:
+  contents: read
+
 jobs:
-  export:
+  build:
     runs-on: ubuntu-latest
-    container: kicad/kicad:10.0
+    container:
+      image: kicad/kicad:10.0-full   # -full ships the stock 3D models (renders, STEP)
+      # The image defaults to a non-root user that can't write the runner's /__w/_temp
+      options: --user root
+    permissions:
+      contents: write   # release upload
+    defaults:
+      run:
+        shell: bash
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - name: Export fabrication outputs
-        # kicad-cli needs a writable HOME for its config
-        run: HOME=/tmp KICAD_CLI=kicad-cli scripts/export.sh output
-
-      - uses: actions/upload-artifact@v4
+      - name: Get Interactive HTML BOM
+        uses: actions/checkout@v7
         with:
-          name: fab-outputs-${{ github.sha }}
+          repository: openscopeproject/InteractiveHtmlBom
+          ref: v2.12.0
+          path: .ibom
+
+      # The image has the stock libraries but no global library tables, which makes ERC
+      # flag every Device:/power: symbol as "library not configured"
+      - name: Seed KiCad library tables
+        run: |
+          mkdir -p ~/.config/kicad/10.0
+          cp -n /usr/share/kicad/template/{sym,fp}-lib-table ~/.config/kicad/10.0/
+
+      # Datasheets rarely change: keep downloads across runs, refresh when the schematic changes
+      - uses: actions/cache@v6
+        with:
+          path: .cache/datasheets
+          key: datasheets-${{ hashFiles('*.kicad_sch') }}
+          restore-keys: datasheets-
+
+      - name: Export outputs
+        env:
+          STRICT_ERC: 1
+          IBOM: .ibom/InteractiveHtmlBom/generate_interactive_bom.py
+        run: |
+          export REVISION="${{ github.ref_type == 'tag' && github.ref_name || '' }}"
+          export REVISION="${REVISION:-${GITHUB_SHA::7}}"
+          echo "REVISION=$REVISION" >> "$GITHUB_ENV"
+          KICAD_CLI=kicad-cli scripts/export.sh output
+
+      - name: Check summary
+        if: always()
+        run: |
+          {
+            echo "### $REVISION"
+            grep -hE 'ERC messages|Found [0-9]+' output/reports/*.rpt | sed 's/^ *\** */- /; s/ *\**$//'
+            if [[ -f output/datasheets/index.csv ]]; then
+              echo; echo "Datasheets not cached (add them to lib/datasheets/):"
+              python3 -c 'import csv,sys; [print("- " + r["MPN"]) for r in csv.DictReader(open(sys.argv[1])) if r["Source"] == "missing"]' output/datasheets/index.csv
+            fi
+          } >> "$GITHUB_STEP_SUMMARY" || true
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: outputs-${{ env.REVISION }}
           path: output/
+          retention-days: 14
+
+      - name: Build Pages site
+        if: github.ref == 'refs/heads/main'
+        run: scripts/site.sh output site
+
+      - uses: actions/upload-pages-artifact@v5
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: site/
+          retention-days: 1
 
       - name: Attach outputs to release
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag'
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             output/*.zip
             output/assembly/*
             output/docs/*
+            output/reports/*
+
+  pages:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v5
