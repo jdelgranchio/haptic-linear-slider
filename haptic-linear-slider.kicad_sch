@@ -8596,6 +8596,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 193.04) (xy 328.93 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cae153c-447e-4b7a-b87f-ecb3acac8688")
+	)
+	(wire
+		(pts
 			(xy 317.5 212.09) (xy 317.5 181.61)
 		)
 		(stroke
@@ -9616,16 +9626,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 186.69) (xy 328.93 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cebb29a-4bd3-43cf-ba4b-d947993140c1")
-	)
-	(wire
-		(pts
 			(xy 337.82 67.31) (xy 339.09 67.31)
 		)
 		(stroke
@@ -10146,6 +10146,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 186.69) (xy 332.74 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c01f8b82-cc2e-479d-b7e4-c3e56d61369a")
+	)
+	(wire
+		(pts
 			(xy 370.84 171.45) (xy 374.65 171.45)
 		)
 		(stroke
@@ -10186,6 +10196,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 200.66) (xy 328.93 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82754c0-9c74-48cd-b00a-ef68111e7675")
+	)
+	(wire
+		(pts
 			(xy 170.18 92.71) (xy 182.88 92.71)
 		)
 		(stroke
@@ -10223,6 +10243,16 @@
 			(type default)
 		)
 		(uuid "cb7c1232-2ebb-4d5c-aabf-3db7a8add1c0")
+	)
+	(wire
+		(pts
+			(xy 325.12 232.41) (xy 334.01 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbf0373-8a82-4828-8e7d-78de3ee0dc01")
 	)
 	(wire
 		(pts
@@ -11235,6 +11265,131 @@
 		(uuid "ff17d0dd-0387-4429-99b8-e48b39542a78")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 334.01 236.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "01f30f21-27f8-419f-b9fe-1b6832a990a3")
+		(property "Reference" "C34"
+			(at 337.058 235.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 337.058 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 333.045 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 334.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 334.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 334.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 334.01 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e132864d-5740-4229-9217-0fa0a10ac88d")
+		)
+		(pin "2"
+			(uuid "e3650a98-d3cd-46c7-840c-aa34c2f1c0d0")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 219.71 88.9 0)
 		(unit 1)
@@ -11382,82 +11537,6 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 328.93 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "041efd8e-3f1b-4eec-ad6b-eaefb8d3a2b4")
-		(property "Reference" "#PWR064"
-			(at 328.93 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 328.93 191.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 328.93 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50cf09c4-b23f-421d-99ff-cf9b7ac49e85")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -11914,6 +11993,130 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 328.93 196.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "08dccf14-e1f4-47f6-9ba6-429ada90565d")
+		(property "Reference" "R26"
+			(at 330.962 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 330.962 198.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 327.152 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 196.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 328.93 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 328.93 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 328.93 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 328.93 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "977a6dcb-d139-4c5f-9406-aed233fbc706")
+		)
+		(pin "2"
+			(uuid "be2e4766-b3ed-49f2-8201-0db23837b223")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -14677,6 +14880,82 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 328.93 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f54f85e-19c9-432b-a471-3b83e77a1254")
+		(property "Reference" "#PWR096"
+			(at 328.93 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 328.93 210.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0b6b6f0-5fa6-4427-bb1f-eea0233159e8")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -28101,6 +28380,82 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 334.01 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4363b1c-9cdb-4095-93e2-8b5543375518")
+		(property "Reference" "#PWR095"
+			(at 334.01 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 334.01 244.348 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 334.01 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 240.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "995ff0e0-81d2-4b25-b5cf-07efa3726e3a")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
