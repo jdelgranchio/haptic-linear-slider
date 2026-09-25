@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name "_Symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/_symbols/PSM01-081A-103B2.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "_Symbols")(type "KiCad")(uri "${KIPRJMOD}/lib/_symbols/haptic-linear-slider.kicad_sym")(options "")(descr "Project symbols (Mouser/SamacSys imports)"))
+  (lib (name "MCU_RaspberryPi_RP2350")(type "KiCad")(uri "${KIPRJMOD}/lib/_symbols/MCU_RaspberryPi_RP2350.kicad_sym")(options "")(descr "RP2350 symbol from Raspberry Pi minimal design files"))
 )
