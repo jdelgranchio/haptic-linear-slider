@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Haptic Linear Slider")
-		(date "2026-04-24")
-		(rev "v0")
+		(date "${CURRENT_DATE}")
+		(rev "${REVISION}")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -8227,16 +8227,12 @@
 		(uuid "0e53ca4a-dd7d-4095-a8ff-7ce5a652692b")
 	)
 	(no_connect
-		(at 232.41 205.74)
-		(uuid "12872d07-806f-4db9-ac35-d831e917eaf8")
-	)
-	(no_connect
 		(at 232.41 193.04)
 		(uuid "18756e8f-cd29-43f3-b316-2d78798f06b8")
 	)
 	(no_connect
-		(at 232.41 180.34)
-		(uuid "23ad1f25-19ba-4c55-bda5-42111039a75a")
+		(at 232.41 154.94)
+		(uuid "24948514-7302-455e-bb5a-f5de1dd83513")
 	)
 	(no_connect
 		(at 168.91 177.8)
@@ -8251,8 +8247,12 @@
 		(uuid "3e0952ad-2333-4183-a552-8c112682d781")
 	)
 	(no_connect
-		(at 232.41 203.2)
-		(uuid "4f03f623-e3f0-4d5e-a473-910608c2775e")
+		(at 232.41 162.56)
+		(uuid "44b11c3f-43d6-4460-ac3c-ae4787e5a8aa")
+	)
+	(no_connect
+		(at 232.41 165.1)
+		(uuid "4f18ff59-3439-4cee-8e60-f40e42986cea")
 	)
 	(no_connect
 		(at 323.85 64.77)
@@ -8275,14 +8275,6 @@
 		(uuid "7ac019ec-938a-431b-8261-e9b4263cef6c")
 	)
 	(no_connect
-		(at 232.41 182.88)
-		(uuid "91a4206f-b83f-46e6-a792-bc556ef4bed6")
-	)
-	(no_connect
-		(at 232.41 208.28)
-		(uuid "925c3573-4b55-4655-bb06-c1b4773b23d9")
-	)
-	(no_connect
 		(at 232.41 190.5)
 		(uuid "9267f595-9f24-471b-9a7c-93d459ba3db4")
 	)
@@ -8295,6 +8287,10 @@
 		(uuid "9c32be62-75cc-4da9-ae51-8d43964f5345")
 	)
 	(no_connect
+		(at 232.41 218.44)
+		(uuid "a32da2d7-5184-400b-b405-c3fe9d37feda")
+	)
+	(no_connect
 		(at 232.41 167.64)
 		(uuid "b173c504-0d59-4421-852b-3c07dbde9f14")
 	)
@@ -8303,8 +8299,12 @@
 		(uuid "b584ddaa-69dd-4d1c-b7c3-0b9baf24c60c")
 	)
 	(no_connect
-		(at 232.41 213.36)
-		(uuid "cbdba988-3d3e-470d-a850-a2df6465f04d")
+		(at 232.41 160.02)
+		(uuid "bb6dd60e-0c01-4001-8b9e-84947002b041")
+	)
+	(no_connect
+		(at 232.41 157.48)
+		(uuid "d16a166f-fa19-47d9-985f-93f5c3ddb2a5")
 	)
 	(no_connect
 		(at 232.41 175.26)
@@ -8403,16 +8403,6 @@
 			(type default)
 		)
 		(uuid "08ad71c9-e515-4e6b-b42a-a212ca6baf99")
-	)
-	(wire
-		(pts
-			(xy 232.41 218.44) (xy 247.65 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08dabf73-255c-4599-b433-5f246f5c6e79")
 	)
 	(wire
 		(pts
@@ -8666,16 +8656,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 157.48) (xy 247.65 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28460a3e-25c7-4926-b43e-da4190fc899c")
-	)
-	(wire
-		(pts
 			(xy 73.66 36.83) (xy 68.58 36.83)
 		)
 		(stroke
@@ -8763,16 +8743,6 @@
 			(type default)
 		)
 		(uuid "30257afe-0971-4ac3-8804-5405eb125543")
-	)
-	(wire
-		(pts
-			(xy 232.41 210.82) (xy 247.65 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f42a9c-1575-4ced-b560-4833f979e088")
 	)
 	(wire
 		(pts
@@ -8873,6 +8843,16 @@
 			(type default)
 		)
 		(uuid "3c55eff3-e482-44d6-9277-f9a32cc318a1")
+	)
+	(wire
+		(pts
+			(xy 232.41 215.9) (xy 247.65 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c5b3cdd-c759-4759-99df-7cc7c73579c7")
 	)
 	(wire
 		(pts
@@ -9276,6 +9256,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 205.74) (xy 247.65 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa6f306-e258-491f-8830-8d294ff6129b")
+	)
+	(wire
+		(pts
 			(xy 238.76 138.43) (xy 238.76 144.78)
 		)
 		(stroke
@@ -9373,6 +9363,16 @@
 			(type default)
 		)
 		(uuid "71280e6d-e921-4049-bd6a-d062601fc6d9")
+	)
+	(wire
+		(pts
+			(xy 232.41 210.82) (xy 247.65 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7155fdbc-4b59-414c-8cb9-bcaf78c109dd")
 	)
 	(wire
 		(pts
@@ -9656,16 +9656,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 215.9) (xy 247.65 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ff28cf4-b731-46db-964a-ef2bca0b6994")
-	)
-	(wire
-		(pts
 			(xy 196.85 59.69) (xy 224.79 59.69)
 		)
 		(stroke
@@ -9766,6 +9756,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 208.28) (xy 247.65 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8f5339-e86a-48c4-85c0-179ec14e86f8")
+	)
+	(wire
+		(pts
 			(xy 66.04 54.61) (xy 66.04 55.88)
 		)
 		(stroke
@@ -9863,6 +9863,16 @@
 			(type default)
 		)
 		(uuid "a4e3678d-15e6-491c-95dd-37117a6face5")
+	)
+	(wire
+		(pts
+			(xy 246.38 180.34) (xy 232.41 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66800f5-a859-409e-a19d-af633db7dad4")
 	)
 	(wire
 		(pts
@@ -9993,16 +10003,6 @@
 			(type default)
 		)
 		(uuid "b369f9fb-6168-4e0f-a9c9-ae930ef3a80c")
-	)
-	(wire
-		(pts
-			(xy 232.41 165.1) (xy 247.65 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3bebdfc-6ae0-4ee7-9615-2f19add6367d")
 	)
 	(wire
 		(pts
@@ -10176,6 +10176,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 213.36) (xy 247.65 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82484f3-3ad9-47eb-a650-b899ad59edb8")
+	)
+	(wire
+		(pts
 			(xy 170.18 92.71) (xy 182.88 92.71)
 		)
 		(stroke
@@ -10223,16 +10233,6 @@
 			(type default)
 		)
 		(uuid "cbe30d5e-41da-4450-9cb9-84aeef218517")
-	)
-	(wire
-		(pts
-			(xy 232.41 160.02) (xy 247.65 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfd1f59-b71e-4118-aaa4-3ef7e678209d")
 	)
 	(wire
 		(pts
@@ -10376,6 +10376,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 203.2) (xy 247.65 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dee8e132-6cf5-47f0-b265-bd388ebee55b")
+	)
+	(wire
+		(pts
 			(xy 48.26 163.83) (xy 59.69 163.83)
 		)
 		(stroke
@@ -10493,6 +10503,16 @@
 			(type default)
 		)
 		(uuid "ee07dcdc-cf8e-4a6c-8aba-34e66c4afc87")
+	)
+	(wire
+		(pts
+			(xy 246.38 182.88) (xy 232.41 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eedba9eb-fb01-42d9-980a-969c1ce8fdd2")
 	)
 	(wire
 		(pts
@@ -10656,26 +10676,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 162.56) (xy 247.65 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec77180-83de-4657-b555-7200bbe0e5f6")
-	)
-	(wire
-		(pts
-			(xy 232.41 154.94) (xy 247.65 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff935c73-5057-417e-b553-bdad5af08567")
-	)
-	(wire
-		(pts
 			(xy 44.45 96.52) (xy 44.45 86.36)
 		)
 		(stroke
@@ -10744,6 +10744,16 @@
 		)
 		(uuid "32cf9c33-61d7-483e-a368-da4215026812")
 	)
+	(label "STATUS_LED1"
+		(at 246.38 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35478182-dbb2-4d08-b918-8a324b21d91d")
+	)
 	(label "RUN"
 		(at 154.94 208.28 0)
 		(effects
@@ -10764,16 +10774,6 @@
 		)
 		(uuid "3a932517-0c9b-49df-a6ac-363d76c23d1b")
 	)
-	(label "MOTOR_IN1"
-		(at 247.65 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ddfc171-b538-4f82-8dd9-05c9279f0c39")
-	)
 	(label "USB_D+"
 		(at 265.43 138.43 180)
 		(effects
@@ -10783,6 +10783,16 @@
 			(justify right bottom)
 		)
 		(uuid "4162b5d5-52e3-4b97-92f7-33f9df3d9199")
+	)
+	(label "MOTOR_VREF_PWM"
+		(at 247.65 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "426d6e86-8a24-4286-8bdc-c5da2327736c")
 	)
 	(label "MOTOR_IN2"
 		(at 71.12 229.87 0)
@@ -10814,16 +10824,6 @@
 		)
 		(uuid "4d54a200-3016-4cf7-ad61-800d09b5929a")
 	)
-	(label "STATUS_LED1"
-		(at 247.65 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5343db28-9208-4098-a168-97b28a7b3658")
-	)
 	(label "MOTOR_IPROPI"
 		(at 254 232.41 0)
 		(effects
@@ -10854,6 +10854,16 @@
 		)
 		(uuid "64197a09-14e4-4b13-bc26-f000bb2392ea")
 	)
+	(label "MOTOR_IN1"
+		(at 247.65 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "653f7c5e-1687-4de4-a623-3b1122ce318c")
+	)
 	(label "MOTOR_IPROPI"
 		(at 71.12 234.95 0)
 		(effects
@@ -10863,6 +10873,16 @@
 			(justify left bottom)
 		)
 		(uuid "6586fab5-5ba1-4f96-8e08-c9dac1f541f7")
+	)
+	(label "TOUCH_SENSE"
+		(at 247.65 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70b63765-16a0-492c-bb54-cee5aee2ec23")
 	)
 	(label "POT_WIPER1"
 		(at 247.65 223.52 180)
@@ -10904,6 +10924,16 @@
 		)
 		(uuid "825a3f63-32c1-490d-ac49-4ca7551f8d82")
 	)
+	(label "MOTOR_IN2"
+		(at 247.65 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85a99ff7-fa38-4124-b8d7-cde3f374d52a")
+	)
 	(label "STATUS_LED1"
 		(at 372.11 93.98 270)
 		(effects
@@ -10944,6 +10974,16 @@
 		)
 		(uuid "93dd1c3c-69b2-4a10-bf45-a1ce0cc22c62")
 	)
+	(label "MOTOR_~{FAULT}"
+		(at 247.65 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94e2a650-7290-4418-ae95-defbf341aff0")
+	)
 	(label "MOTOR_IN2"
 		(at 254 173.99 0)
 		(effects
@@ -10953,16 +10993,6 @@
 			(justify left bottom)
 		)
 		(uuid "95f44ba1-ded9-4d52-a10a-6edb3d87096b")
-	)
-	(label "MOTOR_IN2"
-		(at 247.65 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c93ad05-72d1-4ccd-ac9f-7ebf6fbcf9aa")
 	)
 	(label "STATUS_LED2"
 		(at 384.81 93.98 270)
@@ -11054,15 +11084,15 @@
 		)
 		(uuid "ba1ff3b8-12f5-4ca8-a61d-95668b6c1f15")
 	)
-	(label "MOTOR_VREF_PWM"
-		(at 247.65 165.1 180)
+	(label "MOTOR_~{SLEEP}"
+		(at 247.65 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "be942030-628c-4a52-aad8-89125d08fdfe")
+		(uuid "bce93a75-d979-465c-b395-f2c5a2dacf28")
 	)
 	(label "MOTOR_~{FAULT}"
 		(at 71.12 232.41 0)
@@ -11144,16 +11174,6 @@
 		)
 		(uuid "d1218f8f-d01f-4e22-bf40-b2ce267fc2bf")
 	)
-	(label "MOTOR_~{SLEEP}"
-		(at 247.65 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d20d22e4-ad98-49e9-a4a2-fc2d45fd6304")
-	)
 	(label "CC_SENSE"
 		(at 247.65 228.6 180)
 		(effects
@@ -11174,16 +11194,6 @@
 		)
 		(uuid "d622718c-4537-4822-8415-467f69c3e78e")
 	)
-	(label "TOUCH_SENSE"
-		(at 247.65 210.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6cf8735-88bc-4b13-a031-ff49344e2a2c")
-	)
 	(label "MOTOR_~{SLEEP}"
 		(at 254 182.88 0)
 		(effects
@@ -11193,26 +11203,6 @@
 			(justify left bottom)
 		)
 		(uuid "d7c48152-4174-40d8-96af-28b30ae8ec3d")
-	)
-	(label "MOTOR_~{FAULT}"
-		(at 247.65 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb4fdb4b-5a48-4744-9ac7-f25587df93d3")
-	)
-	(label "STATUS_LED2"
-		(at 247.65 218.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee6f19a5-b49e-4da0-ac8f-f06b633d33d6")
 	)
 	(label "TOUCH_SENSE"
 		(at 353.06 128.27 180)
@@ -11233,6 +11223,16 @@
 			(justify right bottom)
 		)
 		(uuid "fd5951e1-6374-4627-a6ae-80a4090fd862")
+	)
+	(label "STATUS_LED2"
+		(at 246.38 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff17d0dd-0387-4429-99b8-e48b39542a78")
 	)
 	(symbol
 		(lib_id "power:+3V3")

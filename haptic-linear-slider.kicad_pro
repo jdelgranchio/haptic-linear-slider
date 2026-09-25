@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.53,
-          "width": 0.47
+          "height": 3.4,
+          "width": 3.4
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 2.0
         }
       },
       "diff_pair_dimensions": [],
@@ -226,7 +226,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0"
+      "sch_revision": "${REVISION}"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -803,7 +803,9 @@
       "haptic-linear-slider"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "REVISION": "dev"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
