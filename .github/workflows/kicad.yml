@@ -1,0 +1,33 @@
+name: KiCad outputs
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    container: kicad/kicad:10.0
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Export fabrication outputs
+        # kicad-cli needs a writable HOME for its config
+        run: HOME=/tmp KICAD_CLI=kicad-cli scripts/export.sh output
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fab-outputs-${{ github.sha }}
+          path: output/
+
+      - name: Attach outputs to release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            output/*.zip
+            output/assembly/*
+            output/docs/*

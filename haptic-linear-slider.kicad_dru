@@ -1,0 +1,18 @@
+(version 1)
+
+# RP2354A QFN-60: 0.2 mm pads on 0.4 mm pitch leave a 0.2 mm gap between pads.
+# Any class wider than the pad (Power/HighCurrent) would clip the neighbouring pin,
+# so inside U1's courtyard every track necks down to pad width.
+(rule "U1 fanout"
+	(condition "A.Type == 'Track' && A.intersectsCourtyard('U1')")
+	(constraint track_width (min 0.15mm) (opt 0.2mm)))
+
+(rule "U1 fanout clearance"
+	(condition "A.intersectsCourtyard('U1') && B.intersectsCourtyard('U1')")
+	(constraint clearance (min 0.15mm)))
+
+# RP2354A GND pins (PGND pin 47 and the exposed pad) connect solid to every GND pour,
+# as in Raspberry Pi's layout.
+(rule "U1 GND solid"
+	(condition "A.memberOfFootprint('U1') && A.NetName == 'GND'")
+	(constraint zone_connection solid))
