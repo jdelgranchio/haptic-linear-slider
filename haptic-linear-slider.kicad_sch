@@ -8516,16 +8516,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 228.6) (xy 247.65 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1902229e-95e6-480a-bf51-497d84d72d2f")
-	)
-	(wire
-		(pts
 			(xy 144.78 153.67) (xy 144.78 146.05)
 		)
 		(stroke
@@ -8816,16 +8806,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 223.52) (xy 247.65 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a28663a-db26-4876-87b7-797b1736833b")
-	)
-	(wire
-		(pts
 			(xy 224.79 109.22) (xy 224.79 110.49)
 		)
 		(stroke
@@ -9006,6 +8986,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 223.52) (xy 247.65 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de264a9-25ee-4772-ae50-cca44a4956ab")
+	)
+	(wire
+		(pts
 			(xy 393.7 184.15) (xy 401.32 184.15)
 		)
 		(stroke
@@ -9083,16 +9073,6 @@
 			(type default)
 		)
 		(uuid "588ec4fd-1088-4bc2-9cc8-655522be31ca")
-	)
-	(wire
-		(pts
-			(xy 232.41 226.06) (xy 247.65 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a92e253-df5e-4cf3-b09e-8598ce4be600")
 	)
 	(wire
 		(pts
@@ -9363,16 +9343,6 @@
 			(type default)
 		)
 		(uuid "6fdd5460-faab-44c9-b14d-0ebb6742d84c")
-	)
-	(wire
-		(pts
-			(xy 307.34 212.09) (xy 295.91 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71280e6d-e921-4049-bd6a-d062601fc6d9")
 	)
 	(wire
 		(pts
@@ -10166,7 +10136,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 212.09) (xy 254 212.09)
+			(xy 254 212.09) (xy 307.34 212.09)
 		)
 		(stroke
 			(width 0)
@@ -10446,6 +10416,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 228.6) (xy 247.65 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34b8d61-8750-4e5c-8337-7a5c88f7db39")
+	)
+	(wire
+		(pts
 			(xy 306.07 97.79) (xy 306.07 113.03)
 		)
 		(stroke
@@ -10706,6 +10686,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 226.06) (xy 247.65 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed9c7de-e5c2-4b74-acd4-b8b696e85164")
+	)
+	(wire
+		(pts
 			(xy 44.45 96.52) (xy 44.45 86.36)
 		)
 		(stroke
@@ -10814,7 +10804,7 @@
 		)
 		(uuid "4162b5d5-52e3-4b97-92f7-33f9df3d9199")
 	)
-	(label "MOTOR_VREF_PWM"
+	(label "MOTOR_IN1"
 		(at 247.65 213.36 180)
 		(effects
 			(font
@@ -10843,6 +10833,16 @@
 			(justify right bottom)
 		)
 		(uuid "42aeceb8-1919-4769-b31b-2d1d285ca87f")
+	)
+	(label "POT_WIPER1"
+		(at 247.65 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4bdd3364-3548-4949-889a-ea9e25922178")
 	)
 	(label "CC_SENSE"
 		(at 363.22 43.18 180)
@@ -10874,6 +10874,16 @@
 		)
 		(uuid "622f8f32-048e-4517-9d38-f388658c5cb0")
 	)
+	(label "POT_WIPER2"
+		(at 247.65 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "640a71b0-01e7-42d3-a872-e22acf566f8d")
+	)
 	(label "SWD"
 		(at 154.94 222.25 0)
 		(effects
@@ -10884,7 +10894,7 @@
 		)
 		(uuid "64197a09-14e4-4b13-bc26-f000bb2392ea")
 	)
-	(label "MOTOR_IN1"
+	(label "MOTOR_VREF_PWM"
 		(at 247.65 203.2 180)
 		(effects
 			(font
@@ -10913,16 +10923,6 @@
 			(justify right bottom)
 		)
 		(uuid "70b63765-16a0-492c-bb54-cee5aee2ec23")
-	)
-	(label "POT_WIPER1"
-		(at 247.65 223.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "733de8c1-63d9-49d5-b773-91b5697409ff")
 	)
 	(label "MOTOR_~{FAULT}"
 		(at 254 196.85 0)
@@ -10954,7 +10954,7 @@
 		)
 		(uuid "825a3f63-32c1-490d-ac49-4ca7551f8d82")
 	)
-	(label "MOTOR_IN2"
+	(label "MOTOR_~{FAULT}"
 		(at 247.65 205.74 180)
 		(effects
 			(font
@@ -10984,6 +10984,16 @@
 		)
 		(uuid "907b6cca-8a27-48ef-9e29-6de4ef431fe3")
 	)
+	(label "CC_SENSE"
+		(at 247.65 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93578c41-4367-472e-9f89-d50346e50c4b")
+	)
 	(label "XOUT"
 		(at 91.44 163.83 180)
 		(effects
@@ -11004,7 +11014,7 @@
 		)
 		(uuid "93dd1c3c-69b2-4a10-bf45-a1ce0cc22c62")
 	)
-	(label "MOTOR_~{FAULT}"
+	(label "MOTOR_IN2"
 		(at 247.65 210.82 180)
 		(effects
 			(font
@@ -11093,16 +11103,6 @@
 			(justify left bottom)
 		)
 		(uuid "b04cdd2f-5ea3-47b8-bec8-748f681f6584")
-	)
-	(label "MOTOR_IPROPI"
-		(at 247.65 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b180d36f-cabd-4b6f-8e22-fdb197c73394")
 	)
 	(label "TOUCH_SENSE"
 		(at 58.42 240.03 180)
@@ -11194,26 +11194,6 @@
 		)
 		(uuid "d0372795-c199-430d-810c-8680dd241074")
 	)
-	(label "POT_WIPER2"
-		(at 247.65 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1218f8f-d01f-4e22-bf40-b2ce267fc2bf")
-	)
-	(label "CC_SENSE"
-		(at 247.65 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d44d6250-5149-421b-9c60-c1a009a9eb35")
-	)
 	(label "USB_D-"
 		(at 332.74 50.8 180)
 		(effects
@@ -11243,6 +11223,16 @@
 			(justify right bottom)
 		)
 		(uuid "f5728d6d-35c8-41f9-b363-f0dfe2549991")
+	)
+	(label "MOTOR_IPROPI"
+		(at 247.65 223.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fba95636-ed95-4d26-b6e7-8188a9497336")
 	)
 	(label "USB_D-"
 		(at 378.46 48.26 180)
@@ -16470,130 +16460,6 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 292.1 212.09 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4a870208-3c51-4825-88c6-c0a473be5519")
-		(property "Reference" "R22"
-			(at 290.6395 207.3275 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 290.576 209.55 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 292.1 213.868 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 292.1 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 292.1 212.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 292.1 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-0710KL"
-			(at 292.1 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0805FR-0710KL"
-			(at 292.1 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-0710KL"
-			(at 292.1 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad33fb81-e08a-4411-bb5f-6e922ecbbd30")
-		)
-		(pin "2"
-			(uuid "94b515f2-7774-44bf-9183-31b5e2993a07")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "R22")
 					(unit 1)
 				)
 			)
