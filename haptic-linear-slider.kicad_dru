@@ -1,18 +1,25 @@
 (version 1)
 
-# RP2354A QFN-60: 0.2 mm pads on 0.4 mm pitch leave a 0.2 mm gap between pads.
-# Any class wider than the pad (Power/HighCurrent) would clip the neighbouring pin,
-# so inside U1's courtyard every track necks down to pad width.
-(rule "U1 fanout"
-	(condition "A.Type == 'Track' && A.intersectsCourtyard('U1')")
-	(constraint track_width (min 0.15mm) (opt 0.2mm)))
+# Hand soldering: keep at least 0.5 mm between part courtyards so an iron tip fits
+# between neighbouring parts.
+(rule "hand-solder spacing"
+	(constraint courtyard_clearance (min 0.5mm)))
 
-(rule "U1 fanout clearance"
-	(condition "A.intersectsCourtyard('U1') && B.intersectsCourtyard('U1')")
-	(constraint clearance (min 0.15mm)))
+# Exceptions: inside a switching power stage the loop area matters more than iron
+# access, so these parts may sit courtyard-to-courtyard (never overlapping).
+(rule "buck power stage"
+	(condition "(A.Reference == 'U5' || A.Reference == 'L1' || A.Reference == 'C3' || A.Reference == 'C6' || A.Reference == 'C7' || A.Reference == 'C8' || A.Reference == 'C10' || A.Reference == 'R4' || A.Reference == 'R5') && (B.Reference == 'U5' || B.Reference == 'L1' || B.Reference == 'C3' || B.Reference == 'C6' || B.Reference == 'C7' || B.Reference == 'C8' || B.Reference == 'C10' || B.Reference == 'R4' || B.Reference == 'R5')")
+	(constraint courtyard_clearance (min 0mm)))
 
-# RP2354A GND pins (PGND pin 47 and the exposed pad) connect solid to every GND pour,
-# as in Raspberry Pi's layout.
-(rule "U1 GND solid"
-	(condition "A.memberOfFootprint('U1') && A.NetName == 'GND'")
-	(constraint zone_connection solid))
+(rule "boost power stage"
+	(condition "(A.Reference == 'U6' || A.Reference == 'L2' || A.Reference == 'D1' || A.Reference == 'C1' || A.Reference == 'C2' || A.Reference == 'C9' || A.Reference == 'R1' || A.Reference == 'R2') && (B.Reference == 'U6' || B.Reference == 'L2' || B.Reference == 'D1' || B.Reference == 'C1' || B.Reference == 'C2' || B.Reference == 'C9' || B.Reference == 'R1' || B.Reference == 'R2')")
+	(constraint courtyard_clearance (min 0mm)))
+
+(rule "H-bridge charge pump and VM caps"
+	(condition "(A.Reference == 'U4' || A.Reference == 'C35' || A.Reference == 'C36' || A.Reference == 'C37') && (B.Reference == 'U4' || B.Reference == 'C35' || B.Reference == 'C36' || B.Reference == 'C37')")
+	(constraint courtyard_clearance (min 0mm)))
+
+# The USB-C courtyard covers the plug overhang, not pads; the CC resistors sit next to it.
+(rule "USB-C CC resistors"
+	(condition "A.Reference == 'J3' || B.Reference == 'J3'")
+	(constraint courtyard_clearance (min 0mm)))
