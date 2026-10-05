@@ -7131,7 +7131,7 @@
 	)
 	(text "Buck converter\n\n"
 		(exclude_from_sim no)
-		(at 38.1 163.83 0)
+		(at 43.18 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7153,7 +7153,7 @@
 	)
 	(text "3V3 Power"
 		(exclude_from_sim no)
-		(at 59.436 131.572 0)
+		(at 63.754 130.048 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7229,10 +7229,10 @@
 		(uuid "f91f3957-04ed-4d9c-b0c7-f49bc0e6e1b2")
 	)
 	(junction
-		(at 48.26 139.7)
+		(at 74.93 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c64c98a-3759-42fa-9aa5-d1d0d7082c62")
+		(uuid "18b62e74-9db4-40df-87c0-3ee86bdb94c9")
 	)
 	(junction
 		(at 46.99 59.69)
@@ -7277,7 +7277,13 @@
 		(uuid "4ecc7ac0-54b7-431c-ac74-bd37ba7909da")
 	)
 	(junction
-		(at 80.01 139.7)
+		(at 34.29 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5112423b-637c-46a2-91ae-010800312cfa")
+	)
+	(junction
+		(at 85.09 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b70c3b6-e130-4303-8b92-d47c8fe062e1")
@@ -7295,10 +7301,16 @@
 		(uuid "61d379df-4a0a-4349-8183-c70d81d45820")
 	)
 	(junction
-		(at 97.79 139.7)
+		(at 102.87 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d4d917d-808b-4f4a-abae-c2651bb3e132")
+	)
+	(junction
+		(at 85.09 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70c62c35-2f19-4cf2-9e41-d3d99894f7a7")
 	)
 	(junction
 		(at 359.41 44.45)
@@ -7343,28 +7355,16 @@
 		(uuid "8ee1dd64-b9ca-424a-9668-23d1ba2be107")
 	)
 	(junction
-		(at 69.85 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90fe215c-385d-4add-b9de-0b2a9c983998")
-	)
-	(junction
 		(at 298.45 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9295f0e5-2c1c-4485-be44-da3a6ee117f7")
 	)
 	(junction
-		(at 88.9 139.7)
+		(at 93.98 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94ac02bf-0c7a-4523-ae5f-4df2ccb2fed9")
-	)
-	(junction
-		(at 69.85 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ada6e66f-492a-4ca6-9c6b-968834b356ee")
 	)
 	(junction
 		(at 307.34 212.09)
@@ -7385,16 +7385,16 @@
 		(uuid "bbd5bf3b-fd4c-4486-b90a-ac2e0800bc71")
 	)
 	(junction
+		(at 34.29 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8cfd009-ce25-4571-ae40-68212c58936f")
+	)
+	(junction
 		(at 323.85 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9c67092-a0c6-4ee7-8d37-9f8400bc68d5")
-	)
-	(junction
-		(at 29.21 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca028e43-56e1-49f5-bf1c-f6fd8ac045b8")
 	)
 	(junction
 		(at 306.07 123.19)
@@ -7409,16 +7409,28 @@
 		(uuid "ce7580aa-e44c-4516-9c60-44182219aff7")
 	)
 	(junction
+		(at 53.34 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9c6ab44-40df-411d-967a-cfd624bb9414")
+	)
+	(junction
+		(at 34.29 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da20c448-908d-4692-a3a9-5cf2d700b1a1")
+	)
+	(junction
 		(at 360.68 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc7aea6f-140e-4278-8895-6440359c711c")
 	)
 	(junction
-		(at 38.1 82.55)
+		(at 74.93 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f185916e-91c8-4971-be51-6d3de3b15c51")
+		(uuid "e09f4e1b-88e7-46ba-84c5-c87922c97939")
 	)
 	(junction
 		(at 153.67 156.21)
@@ -7431,6 +7443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5a809b6-1c1a-4862-a46e-1940416b3034")
+	)
+	(junction
+		(at 55.88 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e6073c-e833-4058-91f7-bcedfdeec5df")
 	)
 	(no_connect
 		(at 196.85 120.65)
@@ -7463,10 +7481,6 @@
 	(no_connect
 		(at 323.85 67.31)
 		(uuid "70dadfd1-30c4-4666-a434-c7122c926758")
-	)
-	(no_connect
-		(at 82.55 85.09)
-		(uuid "76f8e999-8efa-44aa-8276-144b712f311d")
 	)
 	(no_connect
 		(at 196.85 130.81)
@@ -7512,7 +7526,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 139.7) (xy 88.9 139.7)
+			(xy 102.87 139.7) (xy 93.98 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7582,6 +7596,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 153.67) (xy 38.1 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf9d0de-e467-4297-9175-67805d9ca86f")
+	)
+	(wire
+		(pts
 			(xy 217.17 128.27) (xy 219.71 128.27)
 		)
 		(stroke
@@ -7592,7 +7616,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 139.7) (xy 80.01 139.7)
+			(xy 93.98 139.7) (xy 85.09 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7622,7 +7646,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 153.67) (xy 63.5 153.67)
+			(xy 63.5 153.67) (xy 68.58 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7729,26 +7753,6 @@
 			(type default)
 		)
 		(uuid "1f196d46-d9ba-404d-ab0e-80ceac81b694")
-	)
-	(wire
-		(pts
-			(xy 38.1 82.55) (xy 38.1 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fd8aec2-cba4-455f-81db-a790040c30ec")
-	)
-	(wire
-		(pts
-			(xy 38.1 80.01) (xy 38.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "234a6091-247c-4e32-bedf-4b6c3ed6babf")
 	)
 	(wire
 		(pts
@@ -7882,6 +7886,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 142.24) (xy 53.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36fe8e0e-080e-4c80-bb8a-75a2cbd5cc7b")
+	)
+	(wire
+		(pts
 			(xy 323.85 50.8) (xy 323.85 52.07)
 		)
 		(stroke
@@ -7892,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 140.97) (xy 88.9 139.7)
+			(xy 93.98 140.97) (xy 93.98 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7939,16 +7953,6 @@
 			(type default)
 		)
 		(uuid "430e2165-b956-4175-8695-21214f8c5bfc")
-	)
-	(wire
-		(pts
-			(xy 62.23 85.09) (xy 59.69 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4545ef8b-dce6-4267-bfa1-9a81ee4f3b04")
 	)
 	(wire
 		(pts
@@ -8032,6 +8036,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 85.09) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e1d06e-2f2b-4439-ae9b-b947bd0e94f6")
+	)
+	(wire
+		(pts
 			(xy 387.35 173.99) (xy 381 173.99)
 		)
 		(stroke
@@ -8062,7 +8076,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 156.21) (xy 29.21 156.21)
+			(xy 53.34 142.24) (xy 53.34 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8481b5-a440-49fb-a970-c4f83a87d803")
+	)
+	(wire
+		(pts
+			(xy 21.59 156.21) (xy 34.29 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8082,7 +8106,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 156.21) (xy 29.21 156.21)
+			(xy 38.1 156.21) (xy 34.29 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8212,7 +8236,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 139.7) (xy 69.85 140.97)
+			(xy 74.93 139.7) (xy 74.93 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8222,13 +8246,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 139.7) (xy 69.85 139.7)
+			(xy 85.09 139.7) (xy 74.93 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6f821582-f072-4a4f-859a-238085ae79dc")
+	)
+	(wire
+		(pts
+			(xy 85.09 82.55) (xy 101.6 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fab872f-8370-47c5-b8c4-62b061968bdb")
 	)
 	(wire
 		(pts
@@ -8292,16 +8326,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 101.6 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77ec6d97-2e20-4e7b-80f0-0fa4ffa2ba72")
-	)
-	(wire
-		(pts
 			(xy 323.85 36.83) (xy 331.47 36.83)
 		)
 		(stroke
@@ -8322,7 +8346,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 97.79) (xy 38.1 93.98)
+			(xy 34.29 95.25) (xy 34.29 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8352,7 +8376,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 140.97) (xy 36.83 140.97)
+			(xy 38.1 142.24) (xy 41.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8379,6 +8403,16 @@
 			(type default)
 		)
 		(uuid "836ac152-f044-446b-a76a-2e6343844f91")
+	)
+	(wire
+		(pts
+			(xy 34.29 80.01) (xy 34.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b935107-d69e-4698-90fb-bd926d29c005")
 	)
 	(wire
 		(pts
@@ -8422,7 +8456,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 69.85 156.21)
+			(xy 63.5 156.21) (xy 74.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8512,6 +8546,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 82.55) (xy 85.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1ec59b-2faa-40ae-b74b-009629feede0")
+	)
+	(wire
+		(pts
 			(xy 381 176.53) (xy 381 173.99)
 		)
 		(stroke
@@ -8529,6 +8573,16 @@
 			(type default)
 		)
 		(uuid "a0f430d8-ae14-4740-a44b-a1c41eae6b24")
+	)
+	(wire
+		(pts
+			(xy 63.5 149.86) (xy 63.5 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dd2619-d6cf-4d08-886a-6010beb1b127")
 	)
 	(wire
 		(pts
@@ -8552,6 +8606,16 @@
 	)
 	(wire
 		(pts
+			(xy 302.26 212.09) (xy 307.34 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a698d5b8-23f9-4086-88a3-9899ca8e25b6")
+	)
+	(wire
+		(pts
 			(xy 306.07 123.19) (xy 306.07 120.65)
 		)
 		(stroke
@@ -8559,16 +8623,6 @@
 			(type default)
 		)
 		(uuid "a9dd3a1a-1120-447f-a6b1-7b5bd8fb3166")
-	)
-	(wire
-		(pts
-			(xy 82.55 82.55) (xy 85.09 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac41ac41-39b2-459a-86bc-dbc5cd9efe8e")
 	)
 	(wire
 		(pts
@@ -8582,6 +8636,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 157.48) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad79fd3b-09b7-4575-b184-1beecdbf7dec")
+	)
+	(wire
+		(pts
 			(xy 374.65 41.91) (xy 374.65 43.18)
 		)
 		(stroke
@@ -8589,6 +8653,16 @@
 			(type default)
 		)
 		(uuid "ae53277a-9898-42cd-b0b6-f7eadfa81a5c")
+	)
+	(wire
+		(pts
+			(xy 43.18 85.09) (xy 62.23 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af36f5f4-d434-4be9-b32a-cca876c33c80")
 	)
 	(wire
 		(pts
@@ -8602,7 +8676,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 148.59) (xy 69.85 156.21)
+			(xy 74.93 154.94) (xy 74.93 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8632,23 +8706,13 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 153.67) (xy 33.02 153.67)
+			(xy 34.29 153.67) (xy 25.4 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1218f66-3c09-41be-977e-295b3ca4179b")
-	)
-	(wire
-		(pts
-			(xy 58.42 143.51) (xy 48.26 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1c6d332-de92-4b2f-936f-6a53b3c78fbb")
 	)
 	(wire
 		(pts
@@ -8732,6 +8796,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 104.14) (xy 62.23 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef8188d-3b45-4e41-93f6-9ab4fbbfb989")
+	)
+	(wire
+		(pts
 			(xy 293.37 97.79) (xy 298.45 97.79)
 		)
 		(stroke
@@ -8742,7 +8816,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 57.15) (xy 101.6 86.36)
+			(xy 101.6 57.15) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8792,7 +8866,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 212.09) (xy 307.34 212.09)
+			(xy 254 212.09) (xy 294.64 212.09)
 		)
 		(stroke
 			(width 0)
@@ -8812,7 +8886,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 140.97) (xy 97.79 139.7)
+			(xy 102.87 140.97) (xy 102.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8882,7 +8956,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 82.55) (xy 59.69 82.55)
+			(xy 62.23 82.55) (xy 34.29 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8902,17 +8976,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 87.63) (xy 59.69 87.63)
+			(xy 55.88 104.14) (xy 62.23 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d90ded91-b9f5-4f76-bef8-02c14cae8f10")
+		(uuid "d8416a19-9f27-482f-abb0-ecdd39125ffe")
 	)
 	(wire
 		(pts
-			(xy 29.21 139.7) (xy 29.21 153.67)
+			(xy 34.29 139.7) (xy 34.29 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8942,7 +9016,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 49.53 139.7)
+			(xy 53.34 139.7) (xy 54.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8962,7 +9036,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 139.7) (xy 29.21 139.7)
+			(xy 53.34 139.7) (xy 34.29 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8982,7 +9056,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 97.79) (xy 91.44 95.25)
+			(xy 43.18 95.25) (xy 43.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -9032,16 +9106,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 82.55) (xy 46.99 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0e72b5-eb87-4ade-8ed3-88a16c85948e")
-	)
-	(wire
-		(pts
 			(xy 254 173.99) (xy 332.74 173.99)
 		)
 		(stroke
@@ -9052,7 +9116,17 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 156.21) (xy 29.21 160.02)
+			(xy 82.55 90.17) (xy 85.09 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee4c0d91-7ddd-4153-a22f-107db8c463dd")
+	)
+	(wire
+		(pts
+			(xy 34.29 156.21) (xy 34.29 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9102,6 +9176,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 82.55) (xy 34.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a9d987-d640-4a81-b43b-425a860422a8")
+	)
+	(wire
+		(pts
 			(xy 332.74 189.23) (xy 332.74 212.09)
 		)
 		(stroke
@@ -9112,7 +9196,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 138.43) (xy 97.79 139.7)
+			(xy 102.87 138.43) (xy 102.87 139.7)
 		)
 		(stroke
 			(width 0)
@@ -9132,23 +9216,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 140.97) (xy 80.01 139.7)
+			(xy 85.09 140.97) (xy 85.09 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "faced259-8f89-4002-957b-4e3c0ad5dbaf")
-	)
-	(wire
-		(pts
-			(xy 48.26 143.51) (xy 48.26 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae24e98-aeb8-407a-85f0-07a0c1343cb0")
 	)
 	(wire
 		(pts
@@ -9162,7 +9236,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 151.13) (xy 33.02 140.97)
+			(xy 38.1 151.13) (xy 38.1 142.24)
 		)
 		(stroke
 			(width 0)
@@ -9179,16 +9253,6 @@
 			(justify right bottom)
 		)
 		(uuid "0900acbb-1ebc-4b84-800f-b1997c53e451")
-	)
-	(label "LS_CT"
-		(at 91.44 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c7be46d-ce68-44a5-97d0-5017332f1e08")
 	)
 	(label "SWCLK"
 		(at 219.71 148.59 0)
@@ -9240,16 +9304,6 @@
 		)
 		(uuid "38717397-e5d2-4c83-8a7e-beeeea12b646")
 	)
-	(label "LS_ON"
-		(at 46.99 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "41b691c0-ea60-45df-a55a-48040b9310a7")
-	)
 	(label "MOTOR_IN2"
 		(at 71.12 248.92 0)
 		(effects
@@ -9259,16 +9313,6 @@
 			(justify left bottom)
 		)
 		(uuid "42a5914b-7e76-4207-9e9f-0590d18b9461")
-	)
-	(label "MOTOR_OUT2"
-		(at 368.3 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a6f9212-4eb0-4b1a-84b4-6f8948dafb89")
 	)
 	(label "CC_SENSE"
 		(at 386.08 43.18 180)
@@ -9281,12 +9325,12 @@
 		(uuid "4d54a200-3016-4cf7-ad61-800d09b5929a")
 	)
 	(label "BUCK_SW"
-		(at 33.02 153.67 180)
+		(at 25.4 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "4fc8faea-28fd-4241-b345-6cb15f67cfae")
 	)
@@ -9319,26 +9363,6 @@
 			(justify left bottom)
 		)
 		(uuid "59be6efe-ca71-4211-a8a8-a38c4150f10b")
-	)
-	(label "+5V_MOT"
-		(at 85.09 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5ad9ac2e-41ca-4f75-9d33-28bdc3ce2aba")
-	)
-	(label "LS_ON"
-		(at 59.69 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b1cd711-7f53-42f8-88df-edf6d48e6274")
 	)
 	(label "MOTOR_IN1"
 		(at 58.42 248.92 180)
@@ -9410,16 +9434,6 @@
 		)
 		(uuid "7bf0ff30-2bfe-48fd-ae1b-a7878409dcfe")
 	)
-	(label "LS_CT"
-		(at 59.69 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e6b6bed-a95b-48b2-9e67-b0ecf89f91c4")
-	)
 	(label "MOTOR_VREF_PWM"
 		(at 254 212.09 0)
 		(effects
@@ -9429,16 +9443,6 @@
 			(justify left bottom)
 		)
 		(uuid "80087dfe-976c-4a95-8549-e8540877c182")
-	)
-	(label "MOTOR_OUT1"
-		(at 332.74 189.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85d6b761-4143-4939-b961-6d2b77714824")
 	)
 	(label "SWCLK"
 		(at 134.62 254 180)
@@ -9721,7 +9725,7 @@
 		(uuid "f5728d6d-35c8-41f9-b363-f0dfe2549991")
 	)
 	(label "+5V_MOT"
-		(at 101.6 82.55 180)
+		(at 100.33 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9867,7 +9871,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 97.79 138.43 0)
+		(at 102.87 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9877,7 +9881,7 @@
 		(dnp no)
 		(uuid "038b3c46-c579-458f-a285-9179ecac5eb4")
 		(property "Reference" "#PWR020"
-			(at 97.79 142.24 0)
+			(at 102.87 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +9892,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 97.79 134.62 0)
+			(at 102.87 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9898,7 +9902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 138.43 0)
+			(at 102.87 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9909,7 +9913,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 138.43 0)
+			(at 102.87 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9920,7 +9924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 138.43 0)
+			(at 102.87 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10344,7 +10348,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 97.79 0)
+		(at 43.18 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10354,7 +10358,7 @@
 		(dnp no)
 		(uuid "0a984f7c-8851-49d3-ad3c-a7bcebd26ffc")
 		(property "Reference" "#PWR039"
-			(at 91.44 104.14 0)
+			(at 43.18 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10369,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 101.6 0)
+			(at 43.18 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10375,7 +10379,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 97.79 0)
+			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10386,7 +10390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 97.79 0)
+			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10397,7 +10401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 97.79 0)
+			(at 43.18 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10614,6 +10618,130 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1028fe77-0b14-4052-834b-180c8edfb641")
+		(property "Reference" "R10"
+			(at 87.122 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 87.122 87.884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 83.312 86.36 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-07100KL"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07100KL"
+			(at 85.09 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7321c208-bea9-4f3a-aacc-7091fc4cb06e")
+		)
+		(pin "2"
+			(uuid "fcee4d96-2613-41e0-a3be-f163b88ccf71")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -10850,7 +10978,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 148.59 0)
+		(at 85.09 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10860,7 +10988,7 @@
 		(dnp no)
 		(uuid "13b54e79-9fa8-417a-9813-66ec2144cbc5")
 		(property "Reference" "#PWR017"
-			(at 80.01 154.94 0)
+			(at 85.09 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10871,7 +10999,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 152.4 0)
+			(at 85.09 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10881,7 +11009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 148.59 0)
+			(at 85.09 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10892,7 +11020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 148.59 0)
+			(at 85.09 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10903,7 +11031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 148.59 0)
+			(at 85.09 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11205,7 +11333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 97.79 0)
+		(at 34.29 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11215,7 +11343,7 @@
 		(dnp no)
 		(uuid "181540c4-0c9f-4854-83b7-93256be6332c")
 		(property "Reference" "#PWR022"
-			(at 38.1 104.14 0)
+			(at 34.29 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11226,7 +11354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 101.6 0)
+			(at 34.29 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11236,7 +11364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 97.79 0)
+			(at 34.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11247,7 +11375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 97.79 0)
+			(at 34.29 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11258,7 +11386,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 97.79 0)
+			(at 34.29 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11910,7 +12038,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 144.78 0)
+		(at 85.09 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11920,7 +12048,7 @@
 		(dnp no)
 		(uuid "2cce5d4a-9757-462b-b6b0-4d040f5c5599")
 		(property "Reference" "C7"
-			(at 82.55 143.51 0)
+			(at 87.63 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11931,7 +12059,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 82.55 146.05 0)
+			(at 87.63 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11942,7 +12070,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 80.9752 148.59 0)
+			(at 86.0552 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +12081,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
-			(at 80.01 144.78 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11964,7 +12092,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
-			(at 80.01 144.78 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11975,7 +12103,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 80.01 144.78 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11986,7 +12114,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
-			(at 80.01 144.78 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11997,7 +12125,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
-			(at 80.01 144.78 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12008,7 +12136,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
-			(at 80.01 144.78 0)
+			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12160,7 +12288,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 22.86 156.21 0)
+		(at 21.59 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12170,7 +12298,7 @@
 		(dnp no)
 		(uuid "2e8798d0-63b5-4748-a71b-df25ccd1e1c4")
 		(property "Reference" "#PWR03"
-			(at 22.86 160.02 0)
+			(at 21.59 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12181,7 +12309,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 22.86 152.146 0)
+			(at 21.59 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12191,7 +12319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 156.21 0)
+			(at 21.59 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12202,7 +12330,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 156.21 0)
+			(at 21.59 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12213,7 +12341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 156.21 0)
+			(at 21.59 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12579,7 +12707,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 88.9 144.78 0)
+		(at 93.98 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12589,7 +12717,7 @@
 		(dnp no)
 		(uuid "2fb9f794-629f-425f-8ae7-92307f9070ec")
 		(property "Reference" "C8"
-			(at 91.44 143.51 0)
+			(at 96.52 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12600,7 +12728,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 91.44 146.05 0)
+			(at 96.52 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12611,7 +12739,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 89.8652 148.59 0)
+			(at 94.9452 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12622,7 +12750,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
-			(at 88.9 144.78 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12633,7 +12761,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
-			(at 89.154 141.478 0)
+			(at 94.234 141.478 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12644,7 +12772,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 88.9 144.78 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12655,7 +12783,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
-			(at 88.9 144.78 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12666,7 +12794,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
-			(at 88.9 144.78 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12677,7 +12805,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
-			(at 88.9 144.78 0)
+			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12780,7 +12908,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 140.97 0)
+		(at 41.91 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12790,7 +12918,7 @@
 		(dnp no)
 		(uuid "347ac397-2e11-4575-9923-6c26aa5edec5")
 		(property "Reference" "#PWR08"
-			(at 36.83 147.32 0)
+			(at 41.91 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12801,7 +12929,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 144.78 0)
+			(at 41.91 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12811,7 +12939,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 140.97 0)
+			(at 41.91 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12822,7 +12950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 140.97 0)
+			(at 41.91 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12833,7 +12961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 140.97 0)
+			(at 41.91 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13056,132 +13184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 107.95 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38c652dd-d098-4d6e-9b0d-c639dfda60ed")
-		(property "Reference" "C9"
-			(at 111.76 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 111.76 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 108.9152 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B105KBFNNN"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 20 0805"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNG?qs=hqM3L16%252Bxlf%252BLSavaAk0sA%3D%3D"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "187-CL21B105KBFNNNG"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL21B105KBFNNNG"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 107.95 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "336c3be7-b8ae-4375-a430-bf7b9d94fe7a")
-		)
-		(pin "2"
-			(uuid "a414ebda-bdf1-4547-9b86-c852bec060fc")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+10V")
 		(at 26.67 49.53 0)
 		(unit 1)
@@ -13260,7 +13262,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 160.02 0)
+		(at 74.93 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13270,7 +13272,7 @@
 		(dnp no)
 		(uuid "391d4bba-352b-4bbd-8b39-52f578f28b30")
 		(property "Reference" "R5"
-			(at 71.882 158.75 0)
+			(at 76.962 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13281,7 +13283,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 71.882 161.29 0)
+			(at 76.962 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13292,7 +13294,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 68.072 160.02 90)
+			(at 73.152 161.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13303,7 +13305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 160.02 0)
+			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13314,7 +13316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 160.02 0)
+			(at 74.93 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13324,7 +13326,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 69.85 160.02 0)
+			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13335,7 +13337,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 69.85 160.02 0)
+			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13346,7 +13348,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0805FR-07100KL"
-			(at 69.85 160.02 0)
+			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13357,7 +13359,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07100KL"
-			(at 69.85 160.02 0)
+			(at 74.93 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13659,132 +13661,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 101.6 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4892022c-26f7-4ea4-8126-73ec716dbb54")
-		(property "Reference" "C21"
-			(at 105.41 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47u"
-			(at 105.41 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 102.5652 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.murata.com/en-global/products/productdetail?partno=GRM32ER61A476KE20L"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MLCC 47uF 10V X5R 1210, boost input bulk"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM32ER61A476KE20L"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Murata"
-			(at 101.6 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1d27a032-8d0b-44f9-88be-0f71807e9ee0")
-		)
-		(pin "2"
-			(uuid "3c717449-54c1-4b1a-a040-84d31aadaa8e")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 331.47 46.99 90)
 		(mirror x)
@@ -13983,6 +13859,131 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50b3f1fa-269f-4c57-93bd-0841d55ff3fc")
+		(property "Reference" "C9"
+			(at 110.998 39.624 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 110.998 41.656 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 108.9152 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+			(at 107.95 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1c12127-c417-4d7f-9160-23f95eac36da")
+		)
+		(pin "2"
+			(uuid "89f7256e-d204-4dcd-9aa5-67bbb521ccf7")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14373,6 +14374,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 55.88 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55b18a67-cea0-45d8-9243-a9a1e2a0d86c")
+		(property "Reference" "#PWR028"
+			(at 55.88 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 55.88 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 55.88 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "601a10fe-25a5-47db-ab5e-508abf536510")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 294.64 187.96 0)
 		(unit 1)
@@ -14572,7 +14649,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 153.67 0)
+		(at 68.58 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14582,7 +14659,7 @@
 		(dnp no)
 		(uuid "5b31e9c6-815b-4921-8ae4-969d833f2f33")
 		(property "Reference" "#PWR015"
-			(at 63.5 157.48 0)
+			(at 68.58 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14593,7 +14670,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.548 152.4 0)
+			(at 68.58 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14603,7 +14680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14614,7 +14691,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 153.67 0)
+			(at 68.58 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14625,7 +14702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 153.67 0)
+			(at 68.58 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14648,7 +14725,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 93.98 0)
+		(at 55.88 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14656,32 +14733,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5c95f6c5-0dcf-4e6d-8250-a8bb9aa785cc")
 		(property "Reference" "C13"
-			(at 50.8 92.7099 0)
+			(at 52.832 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1u"
-			(at 50.8 95.2499 0)
+			(at 52.832 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 47.9552 97.79 0)
+			(at 56.8452 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14692,7 +14768,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B105KBFNNN"
-			(at 46.99 93.98 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14703,7 +14779,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 20 0805"
-			(at 46.99 93.98 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14714,7 +14790,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNG?qs=hqM3L16%252Bxlf%252BLSavaAk0sA%3D%3D"
-			(at 46.99 93.98 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14725,7 +14801,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21B105KBFNNNG"
-			(at 46.99 93.98 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14736,7 +14812,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21B105KBFNNNG"
-			(at 46.99 93.98 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14747,7 +14823,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 46.99 93.98 0)
+			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16059,82 +16135,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 38.1 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "73957eec-6c7d-4ce1-a50e-442be48609cc")
-		(property "Reference" "#PWR025"
-			(at 38.1 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 38.1 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a13a727-4d4f-4c3d-9f62-ec168f56967d")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 113.03 251.46 0)
 		(unit 1)
@@ -16956,7 +16956,7 @@
 	)
 	(symbol
 		(lib_id "_Symbols:10uH Power Inductor (Yageo)")
-		(at 59.69 139.7 0)
+		(at 64.77 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16966,7 +16966,7 @@
 		(dnp no)
 		(uuid "85357148-d190-41fa-8814-6b0d8970f52e")
 		(property "Reference" "L1"
-			(at 59.69 134.366 0)
+			(at 64.77 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16976,7 +16976,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 59.69 136.398 0)
+			(at 64.77 136.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16986,7 +16986,7 @@
 			)
 		)
 		(property "Footprint" "_Footprints:AMRM00101040100MA1"
-			(at 59.69 147.828 0)
+			(at 64.77 147.828 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16997,7 +16997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ph/en/products/detail/pulse-electronics/AMRM00101040100MA1/21407867?msockid=3bdc366bbe0663d83c1223c0bf3662a6"
-			(at 59.69 145.542 0)
+			(at 64.77 145.542 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,7 +17008,7 @@
 			)
 		)
 		(property "Description" "Power Inductors - SMD 10uH Shld 20% 6.5A AEC-Q200"
-			(at 59.69 143.256 0)
+			(at 64.77 143.256 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17019,7 +17019,7 @@
 			)
 		)
 		(property "Height" "4"
-			(at 76.2 535.89 0)
+			(at 81.28 535.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17031,7 +17031,7 @@
 			)
 		)
 		(property "Mouser Part Number" "673-AMRM101040100MA1"
-			(at 76.2 635.89 0)
+			(at 81.28 635.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17043,7 +17043,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Pulse-Electronics/AMRM00101040100MA1?qs=HoCaDK9Nz5c3XrM%2F6cdodQ%3D%3D"
-			(at 76.2 735.89 0)
+			(at 81.28 735.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17055,7 +17055,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Yageo Group"
-			(at 76.2 835.89 0)
+			(at 81.28 835.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17067,7 +17067,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AMRM00101040100MA1"
-			(at 76.2 935.89 0)
+			(at 81.28 935.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17372,7 +17372,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 147.32 0)
+		(at 63.5 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17382,7 +17382,7 @@
 		(dnp no)
 		(uuid "87a573c7-14c5-422d-a6c3-15c3fdbf30d0")
 		(property "Reference" "C6"
-			(at 61.722 146.304 0)
+			(at 66.548 145.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17393,7 +17393,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 61.722 148.336 0)
+			(at 66.548 147.066 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17404,7 +17404,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 59.3852 151.13 0)
+			(at 64.4652 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17415,7 +17415,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
-			(at 58.42 147.32 0)
+			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17426,7 +17426,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 100nF+/-10% 50V X7R 0805"
-			(at 58.42 147.32 0)
+			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17437,7 +17437,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
-			(at 58.42 147.32 0)
+			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17448,7 +17448,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
-			(at 58.42 147.32 0)
+			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17459,7 +17459,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
-			(at 58.42 147.32 0)
+			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17470,7 +17470,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 58.42 147.32 0)
+			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18081,7 +18081,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 148.59 0)
+		(at 102.87 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18091,7 +18091,7 @@
 		(dnp no)
 		(uuid "9835cf6d-22cd-4d82-bf77-f46a50630625")
 		(property "Reference" "#PWR021"
-			(at 97.79 154.94 0)
+			(at 102.87 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18102,7 +18102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 97.79 152.4 0)
+			(at 102.87 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18112,7 +18112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 148.59 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18123,7 +18123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 148.59 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18134,7 +18134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 148.59 0)
+			(at 102.87 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18234,7 +18234,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 91.44 0)
+		(at 43.18 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18245,7 +18245,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ebfe0e4-5f35-4814-a344-5382748b03e9")
 		(property "Reference" "C17"
-			(at 95.25 90.1699 0)
+			(at 46.99 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18256,7 +18256,7 @@
 			)
 		)
 		(property "Value" "3n3"
-			(at 95.25 92.7099 0)
+			(at 46.99 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18267,7 +18267,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 92.4052 95.25 0)
+			(at 44.1452 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18278,7 +18278,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B332KBANNNC"
-			(at 91.44 91.44 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18289,7 +18289,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 3.3nF+/-10% 50V X7R 0805"
-			(at 91.44 91.44 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18300,7 +18300,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B332KBANNNC"
-			(at 91.44 91.44 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18311,7 +18311,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21B332KBANNNC"
-			(at 91.44 91.44 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18322,7 +18322,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21B332KBANNNC"
-			(at 91.44 91.44 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18333,7 +18333,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 91.44 91.44 0)
+			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18436,7 +18436,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 167.64 0)
+		(at 34.29 167.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18446,7 +18446,7 @@
 		(dnp no)
 		(uuid "a16483dd-5f83-422a-af99-342982a93491")
 		(property "Reference" "#PWR06"
-			(at 29.21 173.99 0)
+			(at 34.29 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18457,7 +18457,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 171.45 0)
+			(at 34.29 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18467,7 +18467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 167.64 0)
+			(at 34.29 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18478,7 +18478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 167.64 0)
+			(at 34.29 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18489,7 +18489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 167.64 0)
+			(at 34.29 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18786,7 +18786,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 144.78 0)
+		(at 74.93 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18796,7 +18796,7 @@
 		(dnp no)
 		(uuid "a77efd37-58b6-435a-b86d-695f915d69d6")
 		(property "Reference" "R4"
-			(at 71.882 143.51 0)
+			(at 76.962 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18807,7 +18807,7 @@
 			)
 		)
 		(property "Value" "330k"
-			(at 71.882 146.05 0)
+			(at 76.962 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18818,7 +18818,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 68.072 144.78 90)
+			(at 73.152 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18829,7 +18829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 144.78 0)
+			(at 74.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18840,7 +18840,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 144.78 0)
+			(at 74.93 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18850,7 +18850,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 69.85 144.78 0)
+			(at 74.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18861,7 +18861,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-07330KL"
-			(at 69.85 144.78 0)
+			(at 74.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18872,7 +18872,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0805FR-07330KL"
-			(at 69.85 144.78 0)
+			(at 74.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18883,7 +18883,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07330KL"
-			(at 69.85 144.78 0)
+			(at 74.93 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19034,7 +19034,7 @@
 	)
 	(symbol
 		(lib_id "_Symbols:28V 3A Buck Converter (DIOO)")
-		(at 45.72 153.67 0)
+		(at 50.8 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19044,7 +19044,7 @@
 		(dnp no)
 		(uuid "a94f7868-e4a5-4d6a-8a3e-ba0b0647146c")
 		(property "Reference" "U5"
-			(at 45.72 144.78 0)
+			(at 50.8 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19054,7 +19054,7 @@
 			)
 		)
 		(property "Value" "DIO54335TST6"
-			(at 45.72 146.812 0)
+			(at 50.8 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19064,7 +19064,7 @@
 			)
 		)
 		(property "Footprint" "_Footprints:SOT95P280X90-6N"
-			(at 45.72 167.386 0)
+			(at 50.8 167.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19075,7 +19075,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.dioo.com/admin/api/upload/img/1704445421563.pdf"
-			(at 45.72 165.354 0)
+			(at 50.8 165.354 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19086,7 +19086,7 @@
 			)
 		)
 		(property "Description" "Switching Voltage Regulators 28V 3A 500KHz, Synchronous DC Buck Converter 4.5 ~ 28 V -40 to 85C"
-			(at 45.72 163.322 0)
+			(at 50.8 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19097,7 +19097,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 67.31 548.59 0)
+			(at 72.39 548.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19109,7 +19109,7 @@
 			)
 		)
 		(property "Mouser Part Number" "453-DIO54335TST6"
-			(at 67.31 648.59 0)
+			(at 72.39 648.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19121,7 +19121,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/DIOO-Microcircuits/DIO54335TST6?qs=IKkN%2F947nfA8RDpchK6luQ%3D%3D"
-			(at 67.31 748.59 0)
+			(at 72.39 748.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19133,7 +19133,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "DIOO Microcircuits"
-			(at 67.31 848.59 0)
+			(at 72.39 848.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19145,7 +19145,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DIO54335TST6"
-			(at 67.31 948.59 0)
+			(at 72.39 948.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19675,7 +19675,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 29.21 163.83 0)
+		(at 34.29 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19685,7 +19685,7 @@
 		(dnp no)
 		(uuid "ac6e840c-49aa-4c26-8965-ab222c25fe9c")
 		(property "Reference" "C3"
-			(at 32.258 162.56 0)
+			(at 37.338 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19696,7 +19696,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 32.258 165.1 0)
+			(at 37.338 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19707,7 +19707,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 30.1752 167.64 0)
+			(at 35.2552 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19718,7 +19718,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
-			(at 29.21 163.83 0)
+			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19729,7 +19729,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
-			(at 29.21 163.83 0)
+			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19740,7 +19740,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 29.21 163.83 0)
+			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19751,7 +19751,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
-			(at 29.21 163.83 0)
+			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19762,7 +19762,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
-			(at 29.21 163.83 0)
+			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19773,7 +19773,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
-			(at 29.21 163.83 0)
+			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20476,7 +20476,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 163.83 0)
+		(at 74.93 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20486,7 +20486,7 @@
 		(dnp no)
 		(uuid "beecb6b0-e44f-4f18-b76d-495428338e8b")
 		(property "Reference" "#PWR016"
-			(at 69.85 170.18 0)
+			(at 74.93 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20497,7 +20497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 167.64 0)
+			(at 74.93 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20507,7 +20507,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 163.83 0)
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20518,7 +20518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 163.83 0)
+			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20529,7 +20529,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 163.83 0)
+			(at 74.93 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21124,7 +21124,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 59.69 82.55 0)
+		(at 34.29 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21132,10 +21132,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c49e25b2-cd84-4371-b741-0976a7a59a24")
 		(property "Reference" "#PWR100"
-			(at 59.69 86.36 0)
+			(at 34.29 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21146,7 +21145,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 59.69 77.47 0)
+			(at 34.29 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21156,7 +21155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 82.55 0)
+			(at 34.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21167,7 +21166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 82.55 0)
+			(at 34.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21178,7 +21177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 82.55 0)
+			(at 34.29 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21202,7 +21201,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 97.79 144.78 0)
+		(at 102.87 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21212,7 +21211,7 @@
 		(dnp no)
 		(uuid "c817da83-75f8-4f74-84f0-2d221f1eb1d9")
 		(property "Reference" "C10"
-			(at 100.33 143.51 0)
+			(at 105.41 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21223,7 +21222,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 100.33 146.05 0)
+			(at 105.41 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21234,7 +21233,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 98.7552 148.59 0)
+			(at 103.8352 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21245,7 +21244,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL32B106KBJNNW"
-			(at 97.79 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21256,7 +21255,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 50V X7R 3 1210"
-			(at 97.79 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21267,7 +21266,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 97.79 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21278,7 +21277,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL32B106KBJNNWE"
-			(at 97.79 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21289,7 +21288,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL32B106KBJNNWE"
-			(at 97.79 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21300,7 +21299,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
-			(at 97.79 144.78 0)
+			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21703,7 +21702,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 97.79 0)
+		(at 55.88 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21713,7 +21712,7 @@
 		(dnp no)
 		(uuid "cd7eb238-b481-412b-872a-bccc4e3244ec")
 		(property "Reference" "#PWR027"
-			(at 46.99 104.14 0)
+			(at 55.88 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21724,7 +21723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 101.6 0)
+			(at 55.88 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21734,7 +21733,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 97.79 0)
+			(at 55.88 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21745,7 +21744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 97.79 0)
+			(at 55.88 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21756,7 +21755,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 97.79 0)
+			(at 55.88 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21980,7 +21979,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 86.36 0)
+		(at 55.88 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21990,29 +21989,29 @@
 		(dnp no)
 		(uuid "d84159ab-6f27-4b2d-b4c8-918a8800ab78")
 		(property "Reference" "R7"
-			(at 49.022 85.09 0)
+			(at 53.34 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "100k"
-			(at 49.022 87.63 0)
+			(at 53.34 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 45.212 86.36 90)
+			(at 54.102 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22023,7 +22022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 86.36 0)
+			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22034,7 +22033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 86.36 0)
+			(at 55.88 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22044,7 +22043,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "YAGEO"
-			(at 46.99 86.36 0)
+			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22055,7 +22054,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
-			(at 46.99 86.36 0)
+			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22066,7 +22065,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0805FR-07100KL"
-			(at 46.99 86.36 0)
+			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22077,7 +22076,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07100KL"
-			(at 46.99 86.36 0)
+			(at 55.88 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23460,6 +23459,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 298.45 212.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed8db626-2dae-47d8-b237-56fe98f5f7d5")
+		(property "Reference" "R27"
+			(at 296.3545 206.6925 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 296.418 209.042 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 298.45 213.868 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 212.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 298.45 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 298.45 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-07100KL"
+			(at 298.45 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07100KL"
+			(at 298.45 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9319959f-bbfe-47dd-95e6-9c7068b06729")
+		)
+		(pin "2"
+			(uuid "7a8f3a4f-e961-423d-a9bf-f1d0a536ffea")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 55.88 0)
 		(unit 1)
@@ -23690,7 +23813,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 38.1 90.17 0)
+		(at 34.29 88.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23701,7 +23824,7 @@
 		(dnp no)
 		(uuid "f47f51bc-36ee-4412-9c42-a03bb3ca5f06")
 		(property "Reference" "C11"
-			(at 34.29 88.8999 0)
+			(at 30.48 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23712,7 +23835,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 34.29 91.4399 0)
+			(at 30.48 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23723,7 +23846,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 37.1348 93.98 0)
+			(at 33.3248 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23734,7 +23857,7 @@
 			)
 		)
 		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B105KBFNNN"
-			(at 38.1 90.17 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23745,7 +23868,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1uF+/-10% 50V X7R 20 0805"
-			(at 38.1 90.17 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23756,7 +23879,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNG?qs=hqM3L16%252Bxlf%252BLSavaAk0sA%3D%3D"
-			(at 38.1 90.17 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23767,7 +23890,7 @@
 			)
 		)
 		(property "Mouser Part Number" "187-CL21B105KBFNNNG"
-			(at 38.1 90.17 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23778,7 +23901,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL21B105KBFNNNG"
-			(at 38.1 90.17 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23789,7 +23912,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 38.1 90.17 0)
+			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23940,83 +24063,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc563333-0a59-4929-8cbb-37424436a585")
-		(property "Reference" "#PWR043"
-			(at 101.6 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c0fcf7d3-34a3-4f88-8a45-2cd39640f356")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 88.9 148.59 0)
+		(at 93.98 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24026,7 +24073,7 @@
 		(dnp no)
 		(uuid "fc8453d3-e070-47ad-8e32-1c3b97b0d59f")
 		(property "Reference" "#PWR018"
-			(at 88.9 154.94 0)
+			(at 93.98 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24037,7 +24084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 152.4 0)
+			(at 93.98 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24047,7 +24094,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 148.59 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24058,7 +24105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 148.59 0)
+			(at 93.98 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24069,7 +24116,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 148.59 0)
+			(at 93.98 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

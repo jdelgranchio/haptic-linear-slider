@@ -792,7 +792,7 @@
         "uuid": "f60d71f9-9a8e-4a62-960d-f7b9664aea76"
       }
     ],
-    "used_designators": "H1-3",
+    "used_designators": "#PWR28,C4,R10,R27,H1-3",
     "variants": []
   },
   "sheets": [
