@@ -10,7 +10,7 @@
 		(rev "${REVISION}")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x04_Pin"
+		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,7 +21,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Pin"
+			(property "Value" "Conn_01x05_Pin"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -62,7 +62,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -105,7 +105,18 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_Pin_1_1"
+			(symbol "Conn_01x05_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -148,6 +159,18 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -199,7 +222,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 5.08 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -217,7 +240,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 5.08 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -235,7 +258,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -253,7 +276,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -263,6 +286,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7008,9 +7049,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Micro not soldered"
+	(text "Micro Bypass"
 		(exclude_from_sim no)
-		(at 44.704 229.616 0)
+		(at 52.578 228.854 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7085,9 +7126,9 @@
 		)
 		(uuid "3fc984f0-e2af-45df-88ae-7b809b7333a9")
 	)
-	(text "BOOT0 = PA14 (shared with SWCLK).\nHold BOOT, tap RESET -> USB DFU bootloader.\nA blank chip starts in DFU on its own. If BOOT\nis ignored later, clear nBOOT_SEL once (CubeProgrammer)."
+	(text "BOOT0 = PA14 (shared with SWCLK). SW2 is DNP: fit it if needed.\nHold BOOT, pulse NRST (J2 pin 4) or replug -> USB DFU bootloader.\nA blank chip boots to DFU by itself (replug, don't reset).\nIf BOOT is ignored later, clear nBOOT_SEL once (CubeProgrammer)."
 		(exclude_from_sim no)
-		(at 127.508 109.982 0)
+		(at 125.222 108.458 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7173,9 +7214,9 @@
 		)
 		(uuid "d2f5afb0-bc75-412f-a963-ff9b778ffbb3")
 	)
-	(text "External controller header: use when U1 is not fitted.\n3.3V logic. IN1/IN2/nSLEEP/nFAULT, VREF PWM, IPROPI,\nwipers, touch, USB CC sense. +5V is VBUS (power in or out)."
+	(text "External controller header: use if issues with U1 block the project.\n3.3V logic. IN1/IN2/nSLEEP/nFAULT, VREF PWM, IPROPI,\nwipers, touch, USB CC sense. +5V is VBUS (power in or out).\nAlso act as test points."
 		(exclude_from_sim no)
-		(at 36.576 237.49 0)
+		(at 32.512 237.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8696,16 +8737,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 156.21) (xy 139.7 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b079e41f-ea0e-43be-bcd6-2470496527e3")
-	)
-	(wire
-		(pts
 			(xy 34.29 153.67) (xy 25.4 153.67)
 		)
 		(stroke
@@ -9016,6 +9047,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 259.08) (xy 144.78 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8ba1c0-7909-4eed-a09a-282e38cac4b2")
+	)
+	(wire
+		(pts
 			(xy 53.34 139.7) (xy 54.61 139.7)
 		)
 		(stroke
@@ -9083,16 +9124,6 @@
 			(type default)
 		)
 		(uuid "ea5b53c6-550c-4985-9828-5b9b2e108fad")
-	)
-	(wire
-		(pts
-			(xy 149.86 156.21) (xy 153.67 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec5e5977-64ee-46ad-bc51-2456a9d39b77")
 	)
 	(wire
 		(pts
@@ -9788,7 +9819,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B103KBANNN"
 			(at 334.01 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9810,7 +9841,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
 			(at 334.01 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9821,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "CL21B103KBANNNC"
 			(at 334.01 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9832,7 +9863,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "187-CL21B103KBANNNC"
 			(at 334.01 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -9843,7 +9874,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B103KBANNNC"
 			(at 334.01 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -10210,7 +10241,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "YAGEO"
 			(at 328.93 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10221,7 +10252,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "RC0805FR-0720KL"
 			(at 328.93 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10232,7 +10263,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" ""
+		(property "Mouser Part Number" "603-RC0805FR-0720KL"
 			(at 328.93 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10243,7 +10274,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" ""
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-0720KL"
 			(at 328.93 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10699,7 +10730,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
 			(at 85.09 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10710,7 +10741,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0805FR-07100KL"
+		(property "Mouser Part Number" "603-RC0805FR-071KL"
 			(at 85.09 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10721,7 +10752,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07100KL"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-071KL"
 			(at 85.09 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11062,7 +11093,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "164d333a-366b-4b8b-84b4-c5a353b82fc2")
 		(property "Reference" "#PWR013"
 			(at 71.12 250.19 0)
@@ -11076,7 +11106,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 71.12 241.3 0)
+			(at 71.12 242.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11174,7 +11204,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 154.94 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -11196,7 +11226,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 154.94 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11207,7 +11237,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 154.94 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -11218,7 +11248,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 154.94 186.69 90)
 			(hide yes)
 			(show_name no)
@@ -12135,7 +12165,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 85.09 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -12205,7 +12235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 382.27 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12227,7 +12257,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 382.27 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12238,7 +12268,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 382.27 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12249,7 +12279,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 382.27 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12406,7 +12436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 153.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12428,7 +12458,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 153.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12439,7 +12469,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 153.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12450,7 +12480,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 153.67 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -12578,7 +12608,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/GCT/TBC05-02-1-G-G?qs=bN4HulGPsrHLrim%252BCGLcjw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/640-TBC05-02-1-G-G"
 			(at -244.4 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12804,7 +12834,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 93.98 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13963,7 +13993,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 107.95 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14153,7 +14183,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Texas-Instruments/DRV8876PWPR?qs=PqoDHHvF64%252BBALOlUWTZeA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/595-DRV8876PWPR"
 			(at 382.27 777.8 0)
 			(hide yes)
 			(show_name no)
@@ -14537,7 +14567,7 @@
 		(dnp no)
 		(uuid "59f1b1c7-8691-43fd-9182-de0c444d6f16")
 		(property "Reference" "R9"
-			(at 125.73 258.826 90)
+			(at 125.73 261.112 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14547,7 +14577,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 125.73 260.604 90)
+			(at 125.73 262.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14789,7 +14819,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNG?qs=hqM3L16%252Bxlf%252BLSavaAk0sA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B105KBFNNNG"
 			(at 55.88 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15012,7 +15042,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Bourns/PSM01-081A-103B2?qs=MAZTpT1IVl8bvIPPcNHmoQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/652-PSM01081A103B2"
 			(at 347.98 711.76 0)
 			(hide yes)
 			(show_name no)
@@ -15172,7 +15202,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MPL-SE6040-6R8?qs=sPbYRqrBIVl9Bv1ZMwYplw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/946-MPL-SE6040-6R8"
 			(at 100.33 633.02 0)
 			(hide yes)
 			(show_name no)
@@ -15701,7 +15731,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Texas-Instruments/TPS22918DBVR"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/595-TPS22918DBVR"
 			(at 72.39 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -15941,7 +15971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32C071KBT6"
+		(property "Value" "STM32C071KBT3"
 			(at 209.55 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15963,7 +15993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c071kb.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32c071c8.pdf"
 			(at 187.96 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -15996,7 +16026,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "STM32C071KBT6"
+		(property "Manufacturer_Part_Number" "STM32C071KBT3"
 			(at 207.01 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16007,7 +16037,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "511-STM32C071KBT6"
+		(property "Mouser Part Number" "511-STM32C071KBT3"
 			(at 207.01 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16018,7 +16048,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/STMicroelectronics/STM32C071KBT6"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/511-STM32C071KBT3"
 			(at 207.01 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -16135,8 +16165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 113.03 251.46 0)
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 113.03 254 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16167,7 +16197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 111.252 251.46 90)
 			(hide yes)
 			(show_name no)
@@ -16178,7 +16208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300511121.pdf"
 			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -16210,7 +16240,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "61300411121"
+		(property "Manufacturer_Part_Number" "61300511121"
 			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -16221,7 +16251,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "710-61300411121"
+		(property "Mouser Part Number" "710-61300511121"
 			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -16232,7 +16262,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/710-61300411121"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/710-61300511121"
 			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -16254,6 +16284,9 @@
 		)
 		(pin "4"
 			(uuid "59256092-566c-4189-9996-1c95b52dface")
+		)
+		(pin "5"
+			(uuid "ea4df7b4-fd59-4122-9dde-b72e792f7c5c")
 		)
 		(instances
 			(project "haptic-linear-slider"
@@ -16541,129 +16574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 144.78 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a0af9bd-c4b2-4940-9ee7-dfb401031a84")
-		(property "Reference" "SW1"
-			(at 144.78 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Reset"
-			(at 144.78 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "_Footprints:434133025816"
-			(at 144.78 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/434133025816.pdf"
-			(at 144.78 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 144.78 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "434133025816"
-			(at 144.78 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "710-434133025816"
-			(at 144.78 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/710-434133025816"
-			(at 144.78 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5f58955-bbb6-4074-a201-abcb351d7de1")
-		)
-		(pin "2"
-			(uuid "c4d2dffe-6e9a-4f3a-aaa9-34f85104b450")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "_Symbols:220uF Electrolytic Capacitor (Wurth)")
 		(at 393.7 190.5 270)
 		(unit 1)
@@ -16763,7 +16673,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Wurth-Elektronik/860020574012?qs=0KOYDY2FL28v%252BwMPwuAjGA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/710-860020574012"
 			(at -202.49 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -16996,7 +16906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ph/en/products/detail/pulse-electronics/AMRM00101040100MA1/21407867?msockid=3bdc366bbe0663d83c1223c0bf3662a6"
+		(property "Datasheet" "https://www.mouser.it/datasheet/3/508/1/DATASHEET_AMRM00101040_SERIES.pdf"
 			(at 64.77 145.542 0)
 			(hide yes)
 			(show_name no)
@@ -17042,7 +16952,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Pulse-Electronics/AMRM00101040100MA1?qs=HoCaDK9Nz5c3XrM%2F6cdodQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/673-AMRM101040100MA1"
 			(at 81.28 735.89 0)
 			(hide yes)
 			(show_name no)
@@ -17268,7 +17178,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNG?qs=hqM3L16%252Bxlf%252BLSavaAk0sA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B105KBFNNNG"
 			(at 317.5 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -17414,7 +17324,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17436,7 +17346,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17447,7 +17357,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17458,7 +17368,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -17573,82 +17483,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 163.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89801984-bc89-43f2-9e99-90ddd7c9e296")
-		(property "Reference" "#PWR026"
-			(at 135.89 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 139.7 165.608 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e405c9a-bea8-4389-9742-8791ad4232f0")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 26.67 58.42 0)
 		(unit 1)
@@ -17747,7 +17581,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 26.67 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -17861,7 +17695,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Texas-Instruments/TLV61048DBVR?qs=vLWxofP3U2yo%2F8t1L3OASw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/595-TLV61048DBVR"
 			(at 107.95 649.53 0)
 			(hide yes)
 			(show_name no)
@@ -18255,7 +18089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3n3"
+		(property "Value" "22n"
 			(at 46.99 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18277,7 +18111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B332KBANNNC"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B223KBANNN"
 			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18288,7 +18122,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 3.3nF+/-10% 50V X7R 0805"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22nF +/-10% 50V X7R 0805"
 			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18299,7 +18133,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21B332KBANNNC"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B223KBANNNC"
 			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18310,7 +18144,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B332KBANNNC"
+		(property "Mouser Part Number" "187-CL21B223KBANNNC"
 			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18321,7 +18155,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B332KBANNNC"
+		(property "Manufacturer_Part_Number" "CL21B223KBANNNC"
 			(at 43.18 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19120,7 +18954,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/DIOO-Microcircuits/DIO54335TST6?qs=IKkN%2F947nfA8RDpchK6luQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/453-DIO54335TST6"
 			(at 72.39 748.59 0)
 			(hide yes)
 			(show_name no)
@@ -19772,7 +19606,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 34.29 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -20036,7 +19870,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bd21228f-909a-481f-b3ef-18e2dae4b591")
 		(property "Reference" "SW2"
 			(at 140.843 128.27 90)
@@ -20269,7 +20103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 372.11 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -20291,7 +20125,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 372.11 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -20302,7 +20136,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 372.11 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -20313,7 +20147,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 372.11 181.61 90)
 			(hide yes)
 			(show_name no)
@@ -20842,7 +20676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 306.07 127 0)
 			(hide yes)
 			(show_name no)
@@ -20864,7 +20698,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 306.07 127 0)
 			(hide yes)
 			(show_name no)
@@ -20875,7 +20709,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 306.07 127 0)
 			(hide yes)
 			(show_name no)
@@ -20886,7 +20720,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 306.07 127 0)
 			(hide yes)
 			(show_name no)
@@ -21298,7 +21132,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 102.87 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -21423,7 +21257,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL32B106KBJNNWE?qs=X6jEic%2FHinB7YM%252BEcqpCXQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL32B106KBJNNWE"
 			(at 36.83 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -21493,7 +21327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21A475KAQNNNE"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21A475KAQNNN"
 			(at 154.94 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -21515,7 +21349,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL21A475KAQNNNE"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21A475KAQNNNE"
 			(at 154.94 196.85 90)
 			(hide yes)
 			(show_name no)
@@ -21820,7 +21654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBFNNN"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL21B104KBCNNN"
 			(at 298.45 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21842,7 +21676,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBFNNNG"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B104KBCNNNC"
 			(at 298.45 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21853,7 +21687,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "187-CL21B104KBFNNNG"
+		(property "Mouser Part Number" "187-CL21B104KBCNNNC"
 			(at 298.45 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -21864,7 +21698,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21B104KBFNNNG"
+		(property "Manufacturer_Part_Number" "CL21B104KBCNNNC"
 			(at 298.45 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -22542,7 +22376,7 @@
 		(dnp no)
 		(uuid "e0bf9c6e-9b37-4fbf-9ee7-cc2040b11e8c")
 		(property "Reference" "J1"
-			(at 64.77 242.57 0)
+			(at 63.754 243.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22553,7 +22387,7 @@
 			)
 		)
 		(property "Value" "EXT_CTRL"
-			(at 64.77 267.97 0)
+			(at 60.706 268.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22790,7 +22624,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 58.42 242.316 0)
+			(at 58.42 242.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22932,7 +22766,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Panjit/SBA340AL-AU_R1_007A1?qs=a2MtRaTmNOTjGeHKxJULBQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/241-SBA340AL-AUR17A1"
 			(at 71.12 645.72 0)
 			(hide yes)
 			(show_name no)
@@ -23184,128 +23018,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 135.89 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ebc0aee2-afcf-48a8-89a7-2f6dde05d2ee")
-		(property "Reference" "R6"
-			(at 139.192 159.004 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 139.192 161.1376 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 134.112 160.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 135.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 135.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0805FR-071KL"
-			(at 135.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-071KL"
-			(at 135.89 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "149c7ff0-c285-4ace-ad58-ffda5a62375d")
-		)
-		(pin "2"
-			(uuid "473d84a9-96b9-4c89-8728-7af8bf340fa9")
-		)
-		(instances
-			(project "haptic-linear-slider"
-				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 138.43 134.62 180)
 		(unit 1)
@@ -23534,7 +23246,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+		(property "Manufacturer_Part_Number" "RC0805FR-0710KL"
 			(at 298.45 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -23545,7 +23257,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-RC0805FR-07100KL"
+		(property "Mouser Part Number" "603-RC0805FR-0710KL"
 			(at 298.45 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -23556,7 +23268,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-07100KL"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/603-RC0805FR-0710KL"
 			(at 298.45 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -23653,6 +23365,82 @@
 			(project "haptic-linear-slider"
 				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 259.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef52212a-999f-4d99-9ec1-4e2a83cede34")
+		(property "Reference" "#PWR0102"
+			(at 144.78 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 259.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a897ead-063c-4f05-ac72-d2e10c6577ca")
+		)
+		(instances
+			(project "haptic-linear-slider"
+				(path "/f60d71f9-9a8e-4a62-960d-f7b9664aea76"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -23878,7 +23666,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.it/en/ProductDetail/Samsung-Electro-Mechanics/CL21B105KBFNNNG?qs=hqM3L16%252Bxlf%252BLSavaAk0sA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.it/ProductDetail/187-CL21B105KBFNNNG"
 			(at 34.29 88.9 0)
 			(hide yes)
 			(show_name no)

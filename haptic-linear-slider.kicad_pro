@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -196,7 +196,14 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -228,6 +235,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -588,7 +603,7 @@
       },
       {
         "netclass": "HighCurrent",
-        "pattern": "/MOTOR_OUT*"
+        "pattern": "Net-(U4-OUT*)"
       },
       {
         "netclass": "HighCurrent",
@@ -730,6 +745,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Not in Stock",
+          "name": "Not in Stock",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -792,7 +813,7 @@
         "uuid": "f60d71f9-9a8e-4a62-960d-f7b9664aea76"
       }
     ],
-    "used_designators": "#PWR28,C4,R10,R27,H1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

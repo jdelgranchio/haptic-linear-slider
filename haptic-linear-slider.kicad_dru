@@ -12,11 +12,11 @@
 	(constraint courtyard_clearance (min 0mm)))
 
 (rule "boost power stage"
-	(condition "(A.Reference == 'U6' || A.Reference == 'L2' || A.Reference == 'D1' || A.Reference == 'C1' || A.Reference == 'C2' || A.Reference == 'C9' || A.Reference == 'R1' || A.Reference == 'R2') && (B.Reference == 'U6' || B.Reference == 'L2' || B.Reference == 'D1' || B.Reference == 'C1' || B.Reference == 'C2' || B.Reference == 'C9' || B.Reference == 'R1' || B.Reference == 'R2')")
+	(condition "(A.Reference == 'U6' || A.Reference == 'L2' || A.Reference == 'D1' || A.Reference == 'C1' || A.Reference == 'C9' || A.Reference == 'R1' || A.Reference == 'R2') && (B.Reference == 'U6' || B.Reference == 'L2' || B.Reference == 'D1' || B.Reference == 'C1' || B.Reference == 'C9' || B.Reference == 'R1' || B.Reference == 'R2')")
 	(constraint courtyard_clearance (min 0mm)))
 
 (rule "H-bridge charge pump and VM caps"
-	(condition "(A.Reference == 'U4' || A.Reference == 'C35' || A.Reference == 'C36' || A.Reference == 'C37') && (B.Reference == 'U4' || B.Reference == 'C35' || B.Reference == 'C36' || B.Reference == 'C37')")
+	(condition "(A.Reference == 'U4' || A.Reference == 'C2' || A.Reference == 'C35' || A.Reference == 'C36' || A.Reference == 'C37') && (B.Reference == 'U4' || B.Reference == 'C2' || B.Reference == 'C35' || B.Reference == 'C36' || B.Reference == 'C37')")
 	(constraint courtyard_clearance (min 0mm)))
 
 # The USB-C courtyard covers the plug overhang, not pads; the CC resistors sit next to it.
