@@ -60,7 +60,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "pth_inside_courtyard|289125000|202569999|6e49db93-9541-4898-b3be-a104d65f568e|2b510e8c-6911-4bb0-8bee-6d1288c9df9c",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|289125000|205109999|b10693b5-6091-4ecc-8354-1bcbd9d3528a|2b510e8c-6911-4bb0-8bee-6d1288c9df9c",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|289125000|207649999|97c488df-4a91-48ae-a783-5f65dfd3cb62|2b510e8c-6911-4bb0-8bee-6d1288c9df9c",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|289125000|210189999|046bfb6f-14b3-4340-9593-439f45182f11|2b510e8c-6911-4bb0-8bee-6d1288c9df9c",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|289125000|212729999|46bddf56-143a-4cbf-bbd0-df68a45faaf8|2b510e8c-6911-4bb0-8bee-6d1288c9df9c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|209900000|199575001|949cc82a-af4d-4bb7-8042-d76107987ebe|bae52ceb-5bc2-4223-94f8-859db815cb65",
+          ""
+        ],
+        [
+          "silk_over_copper|304225000|232120000|e5fb7df9-3f6b-4126-8890-f979a7fa04b4|13ca6232-e99a-4fd8-8af6-52e005517435",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -567,16 +596,16 @@
       {
         "bus_width": 12,
         "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.6,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 3, 196)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.6,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
