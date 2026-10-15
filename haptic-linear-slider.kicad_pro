@@ -634,7 +634,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "greber/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
